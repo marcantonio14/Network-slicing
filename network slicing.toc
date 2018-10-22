@@ -1,0 +1,10 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {2}Fundamental parts}{3}
+\contentsline {subsection}{\numberline {2.1}Modularization}{3}
+\contentsline {subsection}{\numberline {2.2}SDN-VNF}{3}
+\contentsline {subsection}{\numberline {2.3}Orchestration}{3}
+\contentsline {section}{\numberline {3}Network slicing}{4}
+\contentsline {subsection}{\numberline {3.1}Services}{4}
+\contentsline {subsection}{\numberline {3.2}Example}{4}
+\contentsline {subsection}{\numberline {3.3}Actual realizations}{4}
