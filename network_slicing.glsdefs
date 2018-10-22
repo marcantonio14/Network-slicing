@@ -58,3 +58,483 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{ngmn}{}%
+{%
+\gls@defglossaryentry{ngmn}%
+{%
+name={NGMN},%
+sort={NGMN},%
+type={acronym},%
+first={Next Generation Mobile Networks\glsspace (NGMN)},%
+firstplural={Next Generation Mobile Networkss\glsspace (NGMNs)},%
+text={NGMN},%
+plural={NGMNs},%
+description={Next Generation Mobile Networks},%
+descriptionplural={Next Generation Mobile Networks\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Next Generation Mobile Networks},%
+longplural={Next Generation Mobile Networkss},%
+short={NGMN},%
+shortplural={NGMNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sil}{}%
+{%
+\gls@defglossaryentry{sil}%
+{%
+name={SIL},%
+sort={SIL},%
+type={acronym},%
+first={Service Instance Layer\glsspace (SIL)},%
+firstplural={Service Instance Layers\glsspace (SILs)},%
+text={SIL},%
+plural={SILs},%
+description={Service Instance Layer},%
+descriptionplural={Service Instance Layer\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Service Instance Layer},%
+longplural={Service Instance Layers},%
+short={SIL},%
+shortplural={SILs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nsil}{}%
+{%
+\gls@defglossaryentry{nsil}%
+{%
+name={NSIL},%
+sort={NSIL},%
+type={acronym},%
+first={Network Service Instance Layer\glsspace (NSIL)},%
+firstplural={Network Service Instance Layers\glsspace (NSILs)},%
+text={NSIL},%
+plural={NSILs},%
+description={Network Service Instance Layer},%
+descriptionplural={Network Service Instance Layer\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Network Service Instance Layer},%
+longplural={Network Service Instance Layers},%
+short={NSIL},%
+shortplural={NSILs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{e2e}{}%
+{%
+\gls@defglossaryentry{e2e}%
+{%
+name={E2E},%
+sort={E2E},%
+type={acronym},%
+first={End to End\glsspace (E2E)},%
+firstplural={End to Ends\glsspace (E2Es)},%
+text={E2E},%
+plural={E2Es},%
+description={End to End},%
+descriptionplural={End to End\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={End to End},%
+longplural={End to Ends},%
+short={E2E},%
+shortplural={E2Es},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{e2e}{}%
+{%
+\gls@defglossaryentry{e2e}%
+{%
+name={E2E},%
+sort={E2E},%
+type={acronym},%
+first={End to End\glsspace (E2E)},%
+firstplural={End to Ends\glsspace (E2Es)},%
+text={E2E},%
+plural={E2Es},%
+description={End to End},%
+descriptionplural={End to End\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={End to End},%
+longplural={End to Ends},%
+short={E2E},%
+shortplural={E2Es},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fh}{}%
+{%
+\gls@defglossaryentry{fh}%
+{%
+name={FH},%
+sort={FH},%
+type={acronym},%
+first={Fronthaul\glsspace (FH)},%
+firstplural={Fronthauls\glsspace (FHs)},%
+text={FH},%
+plural={FHs},%
+description={Fronthaul},%
+descriptionplural={Fronthaul\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Fronthaul},%
+longplural={Fronthauls},%
+short={FH},%
+shortplural={FHs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{bh}{}%
+{%
+\gls@defglossaryentry{bh}%
+{%
+name={BH},%
+sort={BH},%
+type={acronym},%
+first={Backthaul\glsspace (BH)},%
+firstplural={Backthauls\glsspace (BHs)},%
+text={BH},%
+plural={BHs},%
+description={Backthaul},%
+descriptionplural={Backthaul\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Backthaul},%
+longplural={Backthauls},%
+short={BH},%
+shortplural={BHs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cn}{}%
+{%
+\gls@defglossaryentry{cn}%
+{%
+name={CN},%
+sort={CN},%
+type={acronym},%
+first={Core Network\glsspace (CN)},%
+firstplural={Core Networks\glsspace (CNs)},%
+text={CN},%
+plural={CNs},%
+description={Core Network},%
+descriptionplural={Core Network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Core Network},%
+longplural={Core Networks},%
+short={CN},%
+shortplural={CNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{vi}{}%
+{%
+\gls@defglossaryentry{vi}%
+{%
+name={VI},%
+sort={VI},%
+type={acronym},%
+first={Virtual Infrastructures\glsspace (VI)},%
+firstplural={Virtual Infrastructuress\glsspace (VIs)},%
+text={VI},%
+plural={VIs},%
+description={Virtual Infrastructures},%
+descriptionplural={Virtual Infrastructures\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Virtual Infrastructures},%
+longplural={Virtual Infrastructuress},%
+short={VI},%
+shortplural={VIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{IaaS}{}%
+{%
+\gls@defglossaryentry{IaaS}%
+{%
+name={IaaS},%
+sort={IaaS},%
+type={acronym},%
+first={Infrastructure-as-a-Service\glsspace (IaaS)},%
+firstplural={Infrastructure-as-a-Services\glsspace (IaaSs)},%
+text={IaaS},%
+plural={IaaSs},%
+description={Infrastructure-as-a-Service},%
+descriptionplural={Infrastructure-as-a-Service\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Infrastructure-as-a-Service},%
+longplural={Infrastructure-as-a-Services},%
+short={IaaS},%
+shortplural={IaaSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{NS}{}%
+{%
+\gls@defglossaryentry{NS}%
+{%
+name={NS},%
+sort={NS},%
+type={acronym},%
+first={Network Services\glsspace (NS)},%
+firstplural={Network Servicess\glsspace (NSs)},%
+text={NS},%
+plural={NSs},%
+description={Network Services},%
+descriptionplural={Network Services\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Network Services},%
+longplural={Network Servicess},%
+short={NS},%
+shortplural={NSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{VNF}{}%
+{%
+\gls@defglossaryentry{VNF}%
+{%
+name={VNF},%
+sort={VNF},%
+type={acronym},%
+first={Virtual Network Functions\glsspace (VNF)},%
+firstplural={Virtual Network Functionss\glsspace (VNFs)},%
+text={VNF},%
+plural={VNFs},%
+description={Virtual Network Functions},%
+descriptionplural={Virtual Network Functions\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Virtual Network Functions},%
+longplural={Virtual Network Functionss},%
+short={VNF},%
+shortplural={VNFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{MANO}{}%
+{%
+\gls@defglossaryentry{MANO}%
+{%
+name={MANO},%
+sort={MANO},%
+type={acronym},%
+first={Management and Orchestration\glsspace (MANO)},%
+firstplural={Management and Orchestrations\glsspace (MANOs)},%
+text={MANO},%
+plural={MANOs},%
+description={Management and Orchestration},%
+descriptionplural={Management and Orchestration\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Management and Orchestration},%
+longplural={Management and Orchestrations},%
+short={MANO},%
+shortplural={MANOs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{NBI}{}%
+{%
+\gls@defglossaryentry{NBI}%
+{%
+name={NBI},%
+sort={NBI},%
+type={acronym},%
+first={Northbound Interface\glsspace (NBI)},%
+firstplural={Northbound Interfaces\glsspace (NBIs)},%
+text={NBI},%
+plural={NBIs},%
+description={Northbound Interface},%
+descriptionplural={Northbound Interface\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Northbound Interface},%
+longplural={Northbound Interfaces},%
+short={NBI},%
+shortplural={NBIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SBI}{}%
+{%
+\gls@defglossaryentry{SBI}%
+{%
+name={SBI},%
+sort={SBI},%
+type={acronym},%
+first={Southbound Interface\glsspace (SBI)},%
+firstplural={Southbound Interfaces\glsspace (SBIs)},%
+text={SBI},%
+plural={SBIs},%
+description={Southbound Interface},%
+descriptionplural={Southbound Interface\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Southbound Interface},%
+longplural={Southbound Interfaces},%
+short={SBI},%
+shortplural={SBIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{MTA}{}%
+{%
+\gls@defglossaryentry{MTA}%
+{%
+name={MTA},%
+sort={MTA},%
+type={acronym},%
+first={Multi-Tenancy Application\glsspace (MTA)},%
+firstplural={Multi-Tenancy Applications\glsspace (MTAs)},%
+text={MTA},%
+plural={MTAs},%
+description={Multi-Tenancy Application},%
+descriptionplural={Multi-Tenancy Application\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Multi-Tenancy Application},%
+longplural={Multi-Tenancy Applications},%
+short={MTA},%
+shortplural={MTAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
