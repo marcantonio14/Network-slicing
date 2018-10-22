@@ -1,0 +1,60 @@
+\ifglsentryexists{sdn}{}%
+{%
+\gls@defglossaryentry{sdn}%
+{%
+name={SDN},%
+sort={SDN},%
+type={acronym},%
+first={Software Defined Network\glsspace (SDN)},%
+firstplural={Software Defined Networks\glsspace (SDNs)},%
+text={SDN},%
+plural={SDNs},%
+description={Software Defined Network},%
+descriptionplural={Software Defined Network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Software Defined Network},%
+longplural={Software Defined Networks},%
+short={SDN},%
+shortplural={SDNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mno}{}%
+{%
+\gls@defglossaryentry{mno}%
+{%
+name={MNO},%
+sort={MNO},%
+type={acronym},%
+first={Mobile Network Operators\glsspace (MNO)},%
+firstplural={Mobile Network Operatorss\glsspace (MNOs)},%
+text={MNO},%
+plural={MNOs},%
+description={Mobile Network Operators},%
+descriptionplural={Mobile Network Operators\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Mobile Network Operators},%
+longplural={Mobile Network Operatorss},%
+short={MNO},%
+shortplural={MNOs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

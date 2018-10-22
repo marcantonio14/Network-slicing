@@ -1,0 +1,68 @@
+\documentclass{article}
+\usepackage[acronym,nomain]{glossaries}
+\makeglossaries
+
+\begin{document}
+
+\tableofcontents
+\newpage
+\printglossaries
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Acronym definitions
+\newacronym{sdn}{SDN}{Software Defined Network}
+\newacronym{mno}{MNO}{Mobile Network Operators}
+
+\section{Introduction}
+Mobile networks are a key element of today's society, enabling communication, access
+and information sharing. Moreover, traffic forecasts predict that the
+demand for capacity will grow exponentially over the next years, mainly due to
+video services. However, as cellular networks move from being voice-centric to
+data-centric, operators' revenues are not able to keep pace with the predicted
+increase in traffic volume.Such pressure on operators' return on investment has
+pushed research efforts toward designing for 5G novel mobile network solutions
+able to open the door for new revenue sources. In this context, the network
+slicing paradigm has emerged as a key SG disruptive technology addressing this
+challenge.
+Network slicing for 5G allows \gls{mno} to open
+their physical network infrastructure platform to the concurrent deployment
+of multiple logical self-contained networks, orchestrated in different ways according
+to their specific service requirements; such network slices are then
+(temporarily) owned by tenants. The availability of this vertical market multiplies
+the monetization opportunities of the network infrastructure as (i) new
+players may come into play (e.g., automotive industry, e-health) and (ii) a higher
+infrastructure capacity utilization can be achieved by admitting network slice
+requests and exploiting multiplexing gains.
+With network slicing for 5G networks, different services (e.g., automotive,
+mobile broadband, or haptic Internet) can be provided by different network slice
+instances. Each of these instances consists of a set of virtual network functions
+that run on the same infrastructure with a tailored orchestration. In this way,
+very heterogeneous requirements can be provided on the same infrastructure, as
+different network slice instances can be orchestrated and configured separately
+according to their specific requirements. Additionally, this is performed in a
+cost-efficient manner as the different network slice tenants share the same
+physical infrastructure. \gls{sdn}
+\newpage
+
+\section{Fundamental parts}
+bbbbb
+\subsection{Modularization}
+\subsection{SDN-VNF}
+\subsection{Orchestration}
+
+\newpage
+
+\section{Network slicing}
+\subsection{Services}
+\subsection{Example}
+\subsection{Actual realizations}
+bbbbb
+
+
+\newpage
+\nocite*
+\bibliographystyle{plain}
+\bibliography{biblist}
+
+\end{document}

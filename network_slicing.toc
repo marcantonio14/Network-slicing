@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Fundamental parts}{4}
+\contentsline {subsection}{\numberline {2.1}Modularization}{4}
+\contentsline {subsection}{\numberline {2.2}SDN-VNF}{4}
+\contentsline {subsection}{\numberline {2.3}Orchestration}{4}
+\contentsline {section}{\numberline {3}Network slicing}{5}
+\contentsline {subsection}{\numberline {3.1}Services}{5}
+\contentsline {subsection}{\numberline {3.2}Example}{5}
+\contentsline {subsection}{\numberline {3.3}Actual realizations}{5}
