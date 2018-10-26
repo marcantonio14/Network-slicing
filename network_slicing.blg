@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: network_slicing.aux
+The style file: plain.bst
+Database file #1: biblist.bib
+Warning--empty journal in condolucimiot
+Warning--empty year in condolucimiot
+You've used 10 entries,
+            2118 wiz_defined-function locations,
+            546 strings with 6113 characters,
+and the built_in function-call counts, 3605 in all, are:
+= -- 315
+> -- 274
+< -- 0
++ -- 108
+- -- 98
+* -- 290
+:= -- 657
+add.period$ -- 29
+call.type$ -- 10
+change.case$ -- 76
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 109
+empty$ -- 214
+format.name$ -- 98
+if$ -- 692
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 13
+newline$ -- 52
+num.names$ -- 20
+pop$ -- 89
+preamble$ -- 1
+purify$ -- 69
+quote$ -- 0
+skip$ -- 65
+stack$ -- 0
+substring$ -- 119
+swap$ -- 9
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 34
+warning$ -- 2
+while$ -- 26
+width$ -- 12
+write$ -- 102
+(There were 2 warnings)
