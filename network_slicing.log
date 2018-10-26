@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.10.24)  26 OCT 2018 11:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.10.24)  26 OCT 2018 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -426,41 +426,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--217
 
  []
 
-[8] [9]
+[8] [9] [10]
 
-LaTeX Warning: Citation `etsi2015gs' on page 10 undefined on input line 360.
+LaTeX Warning: Citation `etsi2015gs' on page 11 undefined on input line 410.
+
+<pics/integral.png, id=43, 624.08156pt x 359.09157pt>
+File: pics/integral.png Graphic file (type png)
+<use pics/integral.png>
+Package pdftex.def Info: pics/integral.png  used on input line 488.
+(pdftex.def)             Requested size: 374.45183pt x 215.45659pt.
+
+Overfull \hbox (29.45183pt too wide) in paragraph at lines 488--490
+ [][] 
+ []
 
 
-Overfull \hbox (4.16734pt too wide) in paragraph at lines 344--437
+Overfull \hbox (4.16734pt too wide) in paragraph at lines 394--492
 \OT1/cmr/m/n/10 Both con-trollers man-age and con-trol their un-der-ly-ing re-s
 ources via pro-grammable
  []
 
-[10] [11]
-<pics/slice.png, id=46, 636.12656pt x 346.29375pt>
-File: pics/slice.png Graphic file (type png)
-<use pics/slice.png>
-Package pdftex.def Info: pics/slice.png  used on input line 487.
-(pdftex.def)             Requested size: 381.67888pt x 207.77785pt.
-
-Overfull \hbox (36.67888pt too wide) in paragraph at lines 487--489
- [][] 
- []
-
-<pics/5g_atom.png, id=47, 553.31718pt x 346.29375pt>
-File: pics/5g_atom.png Graphic file (type png)
-<use pics/5g_atom.png>
-Package pdftex.def Info: pics/5g_atom.png  used on input line 498.
-(pdftex.def)             Requested size: 276.65791pt x 173.14644pt.
+[11]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [12]
+<pics/slice.png, id=50, 636.12656pt x 346.29375pt>
+File: pics/slice.png Graphic file (type png)
+<use pics/slice.png>
+Package pdftex.def Info: pics/slice.png  used on input line 532.
+(pdftex.def)             Requested size: 381.67888pt x 207.77785pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (36.67888pt too wide) in paragraph at lines 532--534
+ [][] 
+ []
 
-[13 <./pics/slice.png (PNG copy)>] (./network_slicing.bbl [14 <./pics/5g_atom.p
-ng (PNG copy)>]) [15] (./network_slicing.aux)
+<pics/5g_atom.png, id=51, 553.31718pt x 346.29375pt>
+File: pics/5g_atom.png Graphic file (type png)
+<use pics/5g_atom.png>
+Package pdftex.def Info: pics/5g_atom.png  used on input line 543.
+(pdftex.def)             Requested size: 276.65791pt x 173.14644pt.
+[13 <./pics/integral.png (PNG copy)>] [14 <./pics/slice.png (PNG copy)>]
+[15 <./pics/5g_atom.png (PNG copy)>] (./network_slicing.bbl) [16]
+(./network_slicing.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -469,10 +477,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 7022 strings out of 494543
- 102035 string characters out of 6176660
- 231571 words of memory out of 5000000
- 10515 multiletter control sequences out of 15000+600000
+ 7028 strings out of 494543
+ 102144 string characters out of 6176660
+ 231584 words of memory out of 5000000
+ 10520 multiletter control sequences out of 15000+600000
  8231 words of font info for 30 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  45i,8n,42p,2001b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -484,10 +492,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf
 nts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb>
-Output written on network_slicing.pdf (15 pages, 700310 bytes).
+Output written on network_slicing.pdf (16 pages, 773853 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -261,22 +261,73 @@ them to other business actors.\\
 %vehicular URLLC) reducing their experienced latency.
 
 \subsubsection{Orchestration}
+Orchestration is also a key process for network
+slicing. In its general sense, orchestration can be
+defined as the art of both bringing together and coordinating disparate things into a coherent whole.
+In a slicing environment, where the players involved
+are so diverse, an orchestrator is needed to coordinate seemingly disparate network processes for
+creating, managing, and delivering services.
+According to the ONF,
+orchestration is defined as the continuing process of
+selecting resources to fulfill client service demands
+in an optimal manner. The idea of optimal refers
+to the optimization policy that governs orchestrator behavior, which is expected to meet all the specific policies and service level agreements (SLAs)
+associated with clients (e.g., tenants or end users)
+that request services. The term continuing means
+that available resources, service demands, and optimization criteria may change in time. Interestingly,
+orchestration is also referred to as the defining
+characteristic of an SDN controller. Note that client
+is a term used in the SDN context.
+The ONF states that the orchestrator functions
+include client-specific service demand validation,
+resource configuration, and event notification.
+However, in network slicing, orchestration cannot be performed by a single centralized entity,
+not only because of the complexity and broad
+scope of orchestration tasks, but also because it
+is necessary to preserve management independence and support the possibility of recursion. In
+our view, a framework in which each virtualization
+actor has an entity performing orchestration functions seems more suitable to satisfy the
+above requirements. The entities should exchange
+information and delegate functionalities between
+them to ensure that the services delivered at a
+certain abstraction layer satisfy the required performance levels with optimal resource utilization.
+
+\subsubsection{Isolation}
+Strong isolation is a major requirement that must
+be satisfied to operate parallel slices on a common shared underlying substrate. The isolation
+must be understood in terms of:\\
+• Performance: Each slice is defined to meet particular service requirements, usually expressed in the
+form of key performance indicators (KPIs). Perfor-
+mance isolation is an E2E issue, and has to ensure
+that service-specific performance requirements are
+always met on each slice, regardless of the congestion and performance levels of other slices.\\
+• Security and privacy: Attacks or faults occurring in one slice must not have an impact on
+other slices. Moreover, each slice must have
+independent security functions that prevent unauthorized entities to have read or write access to
+slice-specific configuration/management/accounting information, and be able to record any of
+these attempts, whether authorized or not.
+• Management: Each slice must be independently managed as a separate network.
+To achieve isolation, a set of appropriate, consistent policies and mechanisms have to be defined
+at each virtualization level, following the recursion
+principle introduced earlier. The policies (what is to
+be done) contain lists of rules that describe how different manageable entities must be properly isolated, without delving into how this can be achieved.
+The mechanisms are the processes that are implemented to enforce the defined
+policies. To fully realize the
+required isolation level, the interplay of both virtualization and orchestration is needed.
+
+
 
 
 \subsubsection{SDN}
-The SDN architecture provided by the ONF com-
-prises an intermediate control plane that dynamically configures and abstracts the underlying
+The SDN architecture provided by the ONF comprises an intermediate control plane that dynamically configures and abstracts the underlying
 forwarding plane resources so as to deliver tailored services to clients located in the application plane. This is
 well aligned with the requirements of 5G network
-slicing, which needs to satisfy a wide range of ser-
-vice demands. Thus, the SDN architecture is an appropriate
+slicing, which needs to satisfy a wide range of service demands. Thus, the SDN architecture is an appropriate
 tool for supporting the key principles of slicing.\\
 The major SDN components are resources and controllers. For
 SDN, a resource is anything that can be utilized to
 provide services in response to client requests. This
-includes infrastructure resources\footnote{Heterogeneous hard-
-ware and necessary software for hosting and con-
-necting NFs. They include computing hardware,
+includes infrastructure resources\footnote{Heterogeneous hardware and necessary software for hosting and connecting NFs. They include computing hardware,
 storage capacity, networking resources (e.g., links
 and switching/routing devices enabling network
 connectivity), and physical assets for radio access.
@@ -292,8 +343,7 @@ enabling the server-client relationships:\\
 • Client context: Represents all the information the
 controller needs to support and communicate with
 a given client. It comprises a Resource Group and
-a Client support function. The Resource Group con-
-tains an abstract, customized view of all the resources that the controller, through one of its northbound
+a Client support function. The Resource Group contains an abstract, customized view of all the resources that the controller, through one of its northbound
 interfaces, offers to the client, in order to deliver
 on its service demands and facilitate its interaction
 with the controller. Client support contains all that
@@ -429,21 +479,16 @@ operate(s) such slices. On the other side, for the
 TC the network is abstracted in terms of VNFs,
 without notions of how those VNFs are physically
 deployed. Despite their different abstraction levels,
-both controllers have to coordinate and synchro-
-nize their actions. Note that the service and
+both controllers have to coordinate and synchronize their actions. Note that the service and
 tenant concept mentioned here can be extended
 to higher abstraction layers by simply applying the
 recursion principle.
-
-
-
-
-
-
-
-
-
-
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{pics/integral.png} 
+\label{integral}
+\caption{Integrating SDN controllers into the reference NFV architectural framework.}
+\end{figure}
 
 
 
