@@ -538,3 +538,153 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{NF}{}%
+{%
+\gls@defglossaryentry{NF}%
+{%
+name={NF},%
+sort={NF},%
+type={acronym},%
+first={Network Functions\glsspace (NF)},%
+firstplural={Network Functionss\glsspace (NFs)},%
+text={NF},%
+plural={NFs},%
+description={Network Functions},%
+descriptionplural={Network Functions\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Network Functions},%
+longplural={Network Functionss},%
+short={NF},%
+shortplural={NFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{CP}{}%
+{%
+\gls@defglossaryentry{CP}%
+{%
+name={CP},%
+sort={CP},%
+type={acronym},%
+first={Control Plane\glsspace (CP)},%
+firstplural={Control Planes\glsspace (CPs)},%
+text={CP},%
+plural={CPs},%
+description={Control Plane},%
+descriptionplural={Control Plane\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Control Plane},%
+longplural={Control Planes},%
+short={CP},%
+shortplural={CPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{UP}{}%
+{%
+\gls@defglossaryentry{UP}%
+{%
+name={UP},%
+sort={UP},%
+type={acronym},%
+first={User Plane\glsspace (UP)},%
+firstplural={User Planes\glsspace (UPs)},%
+text={UP},%
+plural={UPs},%
+description={User Plane},%
+descriptionplural={User Plane\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={User Plane},%
+longplural={User Planes},%
+short={UP},%
+shortplural={UPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{AN}{}%
+{%
+\gls@defglossaryentry{AN}%
+{%
+name={AN},%
+sort={AN},%
+type={acronym},%
+first={Access Network\glsspace (AN)},%
+firstplural={Access Networks\glsspace (ANs)},%
+text={AN},%
+plural={ANs},%
+description={Access Network},%
+descriptionplural={Access Network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Access Network},%
+longplural={Access Networks},%
+short={AN},%
+shortplural={ANs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{RAT}{}%
+{%
+\gls@defglossaryentry{RAT}%
+{%
+name={RAT},%
+sort={RAT},%
+type={acronym},%
+first={Radio Access Technology\glsspace (RAT)},%
+firstplural={Radio Access Technologys\glsspace (RATs)},%
+text={RAT},%
+plural={RATs},%
+description={Radio Access Technology},%
+descriptionplural={Radio Access Technology\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Radio Access Technology},%
+longplural={Radio Access Technologys},%
+short={RAT},%
+shortplural={RATs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

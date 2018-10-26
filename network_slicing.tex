@@ -33,7 +33,11 @@
 \newacronym{NBI}{NBI}{Northbound Interface}
 \newacronym{SBI}{SBI}{Southbound Interface}
 \newacronym{MTA}{MTA}{Multi-Tenancy Application}
-
+\newacronym{NF}{NF}{Network Functions}
+\newacronym{CP}{CP}{Control Plane}
+\newacronym{UP}{UP}{User Plane}
+\newacronym{AN}{AN}{Access Network}
+\newacronym{RAT}{RAT}{Radio Access Technology}
 
 
 \section{Introduction}
@@ -148,16 +152,145 @@ instantiation, modification, and deletion.
 Future 5G networks will be built on the previous novel concepts that were not envisioned by the previous generation
 network architectures. The revolution provided by the introduction of software-defined networking
 and network function virtualization (NFV)\footnote{NFV and VNF are often used interchangeably} opens the door to a
-large list of possible applications recalling that the latter focuses primarily on optimization of the network services, instead the former to separate the control and forwarding plane for a centralized view of the network. These fundamental parts for the network slicing realization in the future 5G networks are now discussed.
+large list of possible applications recalling that the latter focuses primarily on optimization of the network services, instead the former to separate the control and forwarding plane for a centralized view of the network. The fundamental parts involved in the network slicing realization for the future 5G networks are now discussed.
 
 \subsubsection{Modularization}
-test git on linuzzz
-\subsubsection{SDN-VNF}
+The evolution of mobile communication systems towards 5G was intentionally aiming at achieving
+architecture flexibility, heterogeneous accesses and vertical business integration, leveraging on NFV and SDN. To enable the design of logical architectures tailored to
+performance and functional requirements of different use cases, the principle of architecture
+modularization and network function decomposition was proposed at the earliest 5G research
+stages.\gls{NF}s are functional blocks
+that provide specific network capabilities to support and realize the particular service(s) each
+use case demands. Generally implemented
+as software instances running on infrastructure
+resources, NFs can be physical (a combination
+of vendor-specific hardware and software, defin-
+ing a traditional purpose-built physical appliance)
+and/or virtualized (network function software is
+decoupled from the hardware it runs on) \cite{ordonez2017network}. In particular, conventionally monolithic network functions are proposed to be split into basic modules defined with proper granularity, both for the \gls{CP} and \gls{UP}, thus allowing the definition of different logical architectures via the interconnection of
+different subsets of CP and UP NFs.
+In the process of decomposing the NFs into basic modules, the distinction between NFs relating to
+the \gls{AN} and core network emerged. To minimize the dependency of the 5G
+core on the access (and vice versa), and achieve the definition of a convergent network\footnote{Network convergence is the efficient coexistence of telephone, video and data communication within a single network.}, providing
+connectivity via a multitude of accesses not only including cellular radio, a different AN/CN functional split and an interface model are necessary.
+Besides flexibility, the architecture modularization provides the essentials to support network
+­slicing, as a network slice can be defined as an independent logical network shaped by the interconnection of a subset of NFs, composing both CP and UP, and which can be independently instantiated
+and operated over physical or virtual infrastructure.
+
+
+
+
+\subsubsection{Virtualization: SDN-VNF}
+
+Through technologies like
+software-defined networking (SDN) and network
+functions virtualization (NFV), network softwarization can provide the programmability, flexibility,
+and modularity that is required to create multiple logical (virtual) networks, each tailored for a
+given use case, on top of a common network.
+These logical networks are referred to as network
+slices. The concept of separated virtual networks
+deployed over a single network is indeed not new
+(e.g., virtual private networks, VPNs); however,
+there are specificities that make network slices
+a novel concept. We define network slices as
+end-to-end (E2E) logical networks running on a
+common underlying (physical or virtual) network,
+mutually isolated, with independent control and
+management, which can be created on demand.
+Such self-contained networks must be flexible
+enough to simultaneously accommodate diverse
+business-driven use cases from multiple players on
+a common network infrastructure
+
+Future 5G networks will bring the concept of network programmability beyond what is now possible
+with SDN. While SDN splits routing and forwarding capabilities of a switch and reassigns the former
+to an SDN controller, this split between logic and agent should be performed for any NF, including
+the ones related to the CP. That is, the SDN principles are extended to all control and data layers as
+well as management functions usually deployed in mobile networks. 
+The following three categories can be identified: (i) networking control functions (e.g., mobility and
+session management, and potentially QoS/QoE control); (ii) connectivity control functions (mainly
+packet forwarding or SDN‐based packet forwarding); and (iii) wireless control functions (e.g., radio
+link adaptation and scheduling).
+There are many advantages of implementing selected wireless control functions in a way such that
+they are not bound anymore to specialized hardware, such as an LTE enhanced Node‐B (eNB), but
+rather become independent pieces of software. Network functionalities are then performed by a
+(virtualized) programmable and logically centralized controller that abstracts and, thus, homogenizes different network technologies. Such a controller will make network slices programmable
+by controlling the topology and functionality of the service chains as well as resource control inside
+the network slices. Further, this approach implies to have a unique control point for the network:
+By operating a small number of such controllers, network operators reduce the complexity of the
+network management and control.
+Dense wireless networks, as envisioned in 5G, will benefit from this extension of the SDN approach.
+The control of mobility support schemes and adaptation to dynamic radio characteristics, such as
+the ones used in a multiple radio access technology \gls{RAT} scenario, are performed by the controller
+that can employ especially tailored algorithms per network slice they are deployed in. Moreover, if
+needed, VNFs)can be deployed closely to the users (e.g., in a network slice supporting
+vehicular URLLC) reducing their experienced latency.
+
+
 \subsubsection{Orchestration}
 
 \newpage
 
-\section{Network slicing}
+
+
+
+
+
+
+
+\section{Network slicing} %da revisionare
+In order to create tenant‐ or service‐specific networks, NGMN has proposed the concept of net-
+work slicing [1], as detailed in Chapter 8. While legacy systems host multiple telecommunication
+services, such as mobile broadband, voice, SMS, etc., on the same mobile network architecture, for
+instance composed of Long Term Evolution (LTE) radio access and the Evolved Packet Core (EPC),
+future 5G networks should also support shared or dedicated logical architectures customized to the
+respective telco or vertical services, such as enhanced mobile broadband (eMBB), vehicular com-
+munications, ultra‐reliable low‐latency communications (URLLC), and massive machine‐type com-
+munications (mMTC), as introduced in Section 2.2. These services need very different KPIs that are
+hard to be fulfilled by legacy systems, as they are characterized by monolithic network elements that
+have tightly coupled hardware, software, and functionality. In contrast, future architecture leverages the decoupling of software‐based network functions from the underlying infrastructure resources by
+means of utilizing different resource abstraction technologies.
+Furthermore, as explained in the previous paragraph, modularization will play a fundamental role.
+For instance, well‐known resource sharing technologies such as multiplexing and multitasking, e.g.,
+wavelength division multiplexing (WDM) or radio scheduling, can be advantageously complemented
+by softwarization techniques such as NFV and SDN. Multitasking and multiplexing allow sharing
+physical infrastructure that is not virtualized. NFV and SDN allow different tenants to share the
+same general‐purpose hardware, such as commercial off‐the‐shelf (COTS) servers. In combination,
+these technologies allow building fully decoupled E2E networks on top of a common, shared infra-
+structure. Consequently, multiplexing will not happen on the network level anymore, but on the
+infrastructure level, as depicted in Figure 5‐1, yielding better quality of service (QoS) or quality of
+experience (QoE) for the subscriber (as different slices will have tailored orchestration for a given
+service) as well as improved levels of network operability for the mobile service provider or mobile
+network operator.
+In principle, a network slice is a logical network that provides specific network capabilities and
+network characteristics and comprises NFs, computing and networking resources to meet the
+­performance requirements of the tenants, for instance verticals. This comprises both radio access
+network (RAN) and CN NFs and, depending on the degree of freedom that a tenant may have, also
+the management and orchestration (MANO) components. A network slice may be dedicated to a
+specific tenant or partially shared by several tenants that have the same performance requirements
+but ­different security or policy settings. The decoupling between the virtualized and the physical
+­infrastructure allows for the efficient scaling in, out, up or down of the slices, hence suggesting the
+economic viability of this approach that can adapt the used resources on demand.
+Network slices are created mostly with a business purpose: Following the 5G vertical markets para-
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{pics/slice.png}
+\label{slice}
+\caption{An example of a network‐sliced architecture.} 
+\end{figure}
+5G atom. The 5G use cases are in the center. The layers , from the center out,
+represent the requirements of the 5G use cases , the concepts that will allow network
+operators to satisfy the requirements , the technologies that enable the implementation of
+the concepts , and the novelties, that is, technologies that can be easily implemented due
+to softwarization and virtualization techniques.
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{pics/5g_atom.png} 
+\label{atom}
+\caption{5G atom rappresentation.}
+\end{figure}
+
+
 \subsection{Services}
 \subsection{Example}
 \subsection{Actual realizations}
