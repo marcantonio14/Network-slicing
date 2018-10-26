@@ -3,6 +3,10 @@
 \usepackage{placeins}
 \usepackage{float}
 \usepackage[acronym,nomain]{glossaries}
+\usepackage{titlesec}
+
+\setcounter{secnumdepth}{4}
+
 
 \makeglossaries
 
@@ -180,64 +184,270 @@ and operated over physical or virtual infrastructure.
 
 
 
-\subsubsection{Virtualization: SDN-VNF}
+\subsubsection{Virtualization}
+Virtualization is a key process for network slicing
+as it enables effective resource sharing among
+slices. Virtualization is the abstraction of resources
+using appropriate techniques. Resource abstraction is the representation of a resource in terms of
+attributes that match predefined selection criteria
+while hiding or ignoring aspects which are irrelevant to such criteria, in an attempt to simplify the
+use and management of that resource in some
+useful way. The resources to be virtualized can
+be physical or already virtualized, supporting a
+recursive pattern with different abstraction layers.
+Just as server virtualization makes virtual
+machines (VMs) independent of the underlying
+physical hardware, network virtualization enables
+the creation of multiple isolated virtual networks that
+are completely decoupled from the underlying physical network and can safely run on top of it.
+The framework consists of\ three kinds of actors:\\
+• Infrastructure provider (InP): owns and manages a given physical network and its constit-
+uent resources. Such resources, in the form of
+WANs and/or data centers (DCs), are virtualized and then offered through programming
+interfaces to a single or multiple tenants.\\
+• Tenant: leases virtual resources from one or
+more InPs in the form of a virtual network,
+where the tenant can realize, manage, and
+provide network services to its users. A network service is a composition of NFs, and it
+is defined in terms of the individual NFs and
+the mechanism used to connect them.\\
+• End user: consumes (part of) the services
+supplied by the tenant, without providing
+them to other business actors.\\
 
-Through technologies like
-software-defined networking (SDN) and network
-functions virtualization (NFV), network softwarization can provide the programmability, flexibility,
-and modularity that is required to create multiple logical (virtual) networks, each tailored for a
-given use case, on top of a common network.
-These logical networks are referred to as network
-slices. The concept of separated virtual networks
-deployed over a single network is indeed not new
-(e.g., virtual private networks, VPNs); however,
-there are specificities that make network slices
-a novel concept. We define network slices as
-end-to-end (E2E) logical networks running on a
-common underlying (physical or virtual) network,
-mutually isolated, with independent control and
-management, which can be created on demand.
-Such self-contained networks must be flexible
-enough to simultaneously accommodate diverse
-business-driven use cases from multiple players on
-a common network infrastructure
 
-Future 5G networks will bring the concept of network programmability beyond what is now possible
-with SDN. While SDN splits routing and forwarding capabilities of a switch and reassigns the former
-to an SDN controller, this split between logic and agent should be performed for any NF, including
-the ones related to the CP. That is, the SDN principles are extended to all control and data layers as
-well as management functions usually deployed in mobile networks. 
-The following three categories can be identified: (i) networking control functions (e.g., mobility and
-session management, and potentially QoS/QoE control); (ii) connectivity control functions (mainly
-packet forwarding or SDN‐based packet forwarding); and (iii) wireless control functions (e.g., radio
-link adaptation and scheduling).
-There are many advantages of implementing selected wireless control functions in a way such that
-they are not bound anymore to specialized hardware, such as an LTE enhanced Node‐B (eNB), but
-rather become independent pieces of software. Network functionalities are then performed by a
-(virtualized) programmable and logically centralized controller that abstracts and, thus, homogenizes different network technologies. Such a controller will make network slices programmable
-by controlling the topology and functionality of the service chains as well as resource control inside
-the network slices. Further, this approach implies to have a unique control point for the network:
-By operating a small number of such controllers, network operators reduce the complexity of the
-network management and control.
-Dense wireless networks, as envisioned in 5G, will benefit from this extension of the SDN approach.
-The control of mobility support schemes and adaptation to dynamic radio characteristics, such as
-the ones used in a multiple radio access technology \gls{RAT} scenario, are performed by the controller
-that can employ especially tailored algorithms per network slice they are deployed in. Moreover, if
-needed, VNFs)can be deployed closely to the users (e.g., in a network slice supporting
-vehicular URLLC) reducing their experienced latency.
-
+%Through technologies like
+%software-defined networking (SDN) and network
+%functions virtualization (NFV), network softwarization can provide the programmability, flexibility,
+%and modularity that is required to create multiple logical (virtual) networks, each tailored for a
+%given use case, on top of a common network.
+%These logical networks are referred to as network
+%slices. The concept of separated virtual networks
+%deployed over a single network is indeed not new
+%(e.g., virtual private networks, VPNs); however,
+%there are specificities that make network slices
+%a novel concept. We define network slices as
+%end-to-end (E2E) logical networks running on a
+%common underlying (physical or virtual) network,
+%mutually isolated, with independent control and
+%management, which can be created on demand.
+%Such self-contained networks must be flexible
+%enough to simultaneously accommodate diverse
+%business-driven use cases from multiple players on
+%a common network infrastructure
+%
+%Future 5G networks will bring the concept of network programmability beyond what is now possible
+%with SDN. While SDN splits routing and forwarding capabilities of a switch and reassigns the former
+%to an SDN controller, this split between logic and agent should be performed for any NF, including
+%the ones related to the CP. That is, the SDN principles are extended to all control and data layers as
+%well as management functions usually deployed in mobile networks. 
+%The following three categories can be identified: (i) networking control functions (e.g., mobility and
+%session management, and potentially QoS/QoE control); (ii) connectivity control functions (mainly
+%packet forwarding or SDN‐based packet forwarding); and (iii) wireless control functions (e.g., radio
+%link adaptation and scheduling).
+%There are many advantages of implementing selected wireless control functions in a way such that
+%they are not bound anymore to specialized hardware, such as an LTE enhanced Node‐B (eNB), but
+%rather become independent pieces of software. Network functionalities are then performed by a
+%(virtualized) programmable and logically centralized controller that abstracts and, thus, homogenizes different network technologies. Such a controller will make network slices programmable
+%by controlling the topology and functionality of the service chains as well as resource control inside
+%the network slices. Further, this approach implies to have a unique control point for the network:
+%By operating a small number of such controllers, network operators reduce the complexity of the
+%network management and control.
+%Dense wireless networks, as envisioned in 5G, will benefit from this extension of the SDN approach.
+%The control of mobility support schemes and adaptation to dynamic radio characteristics, such as
+%the ones used in a multiple radio access technology \gls{RAT} scenario, are performed by the controller
+%that can employ especially tailored algorithms per network slice they are deployed in. Moreover, if
+%needed, VNFs)can be deployed closely to the users (e.g., in a network slice supporting
+%vehicular URLLC) reducing their experienced latency.
 
 \subsubsection{Orchestration}
 
+
+\subsubsection{SDN}
+The SDN architecture provided by the ONF com-
+prises an intermediate control plane that dynamically configures and abstracts the underlying
+forwarding plane resources so as to deliver tailored services to clients located in the application plane. This is
+well aligned with the requirements of 5G network
+slicing, which needs to satisfy a wide range of ser-
+vice demands. Thus, the SDN architecture is an appropriate
+tool for supporting the key principles of slicing.\\
+The major SDN components are resources and controllers. For
+SDN, a resource is anything that can be utilized to
+provide services in response to client requests. This
+includes infrastructure resources\footnote{Heterogeneous hard-
+ware and necessary software for hosting and con-
+necting NFs. They include computing hardware,
+storage capacity, networking resources (e.g., links
+and switching/routing devices enabling network
+connectivity), and physical assets for radio access.
+} and NFs, but also
+network services, in application of the recursion
+principle described earlier. A controller is a logically centralized entity instantiated in the control
+plane which operates SDN resources at runtime
+to deliver services in an optimal way. Therefore,
+it mediates between clients and resources, acting simultaneously as server and client via client
+and server contexts, respectively. Both contexts
+are conceptual components of an SDN controller
+enabling the server-client relationships:\\
+• Client context: Represents all the information the
+controller needs to support and communicate with
+a given client. It comprises a Resource Group and
+a Client support function. The Resource Group con-
+tains an abstract, customized view of all the resources that the controller, through one of its northbound
+interfaces, offers to the client, in order to deliver
+on its service demands and facilitate its interaction
+with the controller. Client support contains all that
+is necessary to support client operations, including
+policies on what the client is allowed to see and do and service-related information to map actions
+between the client and the controller.\\
+• Server context: Represents all the information the controller needs to interact with a set of
+underlying resources, assembled in a Resource
+Group, through one of its southbound interfaces.
+The process of transforming the set of
+Resource Groups accessed through server contexts to those defined in separate client contexts
+is not straightforward, and it requires the SDN
+controller to perform virtualization and orchestration functions.
+When performing the virtualization function, the
+SDN controller carries out the abstraction and the
+aggregation/partitioning of the underlying resources. Thanks to virtualization, each client context provides a specific Resource Group that can be used by the client associated with that context to realize
+its service(s). Through orchestration, the SDN con-
+troller optimally dispatches the selected resources
+to such separate Resource Groups. The interplay
+of both controller functions enables the fulfillment
+of the diverging service demands from all clients
+while preserving the isolation among them.
+The SDN architecture also includes an administrator. Its tasks consist of instantiating and configuring the entire controller, including the creation
+of both server and client contexts and the installa-tion of their associated policies.
+According to the ONF vision, the SDN architecture naturally supports slicing, as the client context provides the complete abstract set of resources
+(as a Resource Group) and the supporting control
+logic that constitute a slice, including the complete
+collection of related client service attributes.
+Another key functional aspect that makes SDN
+architecture ideal to embrace 5G slicing is recursion. Because of the different abstraction layers
+that the recursion principle enables, the SDN
+control plane can involve multiple hierarchically
+arranged controllers that extend the client-server
+relationships at several levels. According to
+these premises, it is evident that SDN can support a
+recursive composition of slices. This implies that
+the resources (i.e., Resource Group) a given controller delivers to one of its clients in the form of a
+dedicated slice (i.e., client context) can, in turn, be
+virtualized and orchestrated by such a client in the
+case of being an SDN controller. This way, the new
+controller can utilize the resource(s) it accesses via
+its server context(s) to define, scale, and deliver
+new resources (and hence new slices) to its own
+clients, which might also be SDN controllers.
+
+
+\subsubsection{VNF}
+Although the SDN architecture described above
+gives a comprehensive view of the control plane
+functionalities enabling slicing, it lacks capabilities
+that are vital to efficiently manage the life cycle of
+network slices and its constituent resources. In this
+respect, the NFV architecture is ideal to play
+this role, as it manages the infrastructure resources
+and orchestrates the allocation of such resources
+needed to realize VNFs and network services.
+In this respect, the NFV architecture is ideal to play
+this role, as it manages the infrastructure resources
+and orchestrates the allocation of such resources
+needed to realize VNFs and network services.
+To benefit from the management and orchestration functionalities of NFV, appropriate cooperation between SDN and NFV is required.
+However, embracing SDN and NFV architectures
+into a common reference framework is not an
+easy task. ETSI presents in \cite{etsi2015gs} a framework
+to integrate SDN within the reference NFV architecture. This framework incorporates two SDN
+controllers, one logically placed at the tenant and
+another at the InP level. The NFV architecture comprises the following
+entities:\\
+• Network Functions Virtualization Infrastructure (NFVI): A collection of resources used to
+host and connect the VNFs. While the broad
+scope of SDN makes resource a generic concept,
+the current resource definition in the NFV framework comprises only the infrastructure resources.\\
+• VNFs: Software-based implementations of NFs
+that run over the NFVI.\\
+• Management and Orchestration (MANO):
+Performs all the virtualization-specific management, coordination, and automation tasks in the
+NFV architecture. The MANO framework
+comprises three functional blocks:\\
+• • Virtualized infrastructure manager (VIM):
+responsible for controlling and managing the
+NFVI resources.\\
+• • VNF manager (VNFM): performs configuration and life cycle management of the
+VNF(s) on its domain.
+• • Orchestrator: According to ETSI, it has two
+set of functions performed by the Resource
+Orchestrator (RO) and Network Service
+Orchestrator (NSO), respectively. The RO
+orchestrates the NFVI resources across
+(potentially different) VIMs. The NSO performs the life cycle management of network
+services using the capabilities provided by the
+RO and the (potentially different) VNFMs.\\
+• Network Management System (NMS): Framework performing the general network management tasks. Although its functions are orthogonal
+to those defined in MANO, NMS is expected to
+interact with MANO entities by means of a clear
+separation of roles. NMS comprises:\\
+• • Element management (EM): anchor point
+responsible for the fault, configuration,
+accounting, performance, and security
+(FCAPS) of a VNF.\\
+• • Operation/business support system (OSS/
+BSS): a collection of systems and manage-
+ment applications that network service providers use to provision and operate their network
+services. In terms of the roles we considered
+earlier, tenants would run these applications.
+The ETSI proposal includes two SDN controllers
+in the architecture. Each controller centralizes
+the control plane functionalities and provides an
+abstract view of all the connectivity-related components it manages. These controllers are:\\
+• Infrastructure SDN controller (IC): Sets up
+and manages the underlying networking resources to provide the required connectivity for communicating the VNFs.
+Managed by the VIM, this controller may change
+infrastructure behavior on demand according to
+VIM specifications adapted from tenant requests.\\
+• Tenant SDN controller (TC): instantiated in
+the tenant domain as one of the VNFs or as
+part of the NMS, this second controller dynamically manages the pertinent VNFs used to realize
+the tenant’s network service(s). These VNFs are
+the underlying forwarding plane resources of the
+TC. The operation and management tasks that the
+TC carries out are triggered by the applications
+running on top of it (e.g., the OSS).\\
+Both controllers manage and control their
+underlying resources via programmable southbound interfaces, implementing protocols like
+OpenFlow, NETCONF, and I2RS. However, each
+controller provides a different level of abstraction. While the IC provides an underlay to support
+the deployment and connectivity of VNFs, the
+TC provides an overlay comprising tenant VNFs
+that, properly composed, define the network service(s) such a tenant independently manages on
+its slice(s). These different resource views each
+controller offers through its interfaces have repercussions on the way they operate. On one side,
+the IC is not aware of the number of slices that utilize the VNFs it connects, nor the tenant(s) which
+operate(s) such slices. On the other side, for the
+TC the network is abstracted in terms of VNFs,
+without notions of how those VNFs are physically
+deployed. Despite their different abstraction levels,
+both controllers have to coordinate and synchro-
+nize their actions. Note that the service and
+tenant concept mentioned here can be extended
+to higher abstraction layers by simply applying the
+recursion principle.
+
+
+
+
+
+
+
+
+
+
+
+
+
 \newpage
-
-
-
-
-
-
-
-
 \section{Network slicing} %da revisionare
 In order to create tenant‐ or service‐specific networks, NGMN has proposed the concept of net-
 work slicing [1], as detailed in Chapter 8. While legacy systems host multiple telecommunication
