@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.10.24)  26 OCT 2018 22:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2018.10.24)  27 OCT 2018 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -399,30 +399,30 @@ e
 <pics/1.JPG, id=12, 567.62062pt x 439.6425pt>
 File: pics/1.JPG Graphic file (type jpg)
 <use pics/1.JPG>
-Package pdftex.def Info: pics/1.JPG  used on input line 94.
+Package pdftex.def Info: pics/1.JPG  used on input line 99.
 (pdftex.def)             Requested size: 283.8096pt x 219.82071pt.
  [3] [4 <./pics/1.JPG>]
 [5]
 <pics/2.JPG, id=25, 515.67656pt x 450.9347pt>
 File: pics/2.JPG Graphic file (type jpg)
 <use pics/2.JPG>
-Package pdftex.def Info: pics/2.JPG  used on input line 130.
+Package pdftex.def Info: pics/2.JPG  used on input line 135.
 (pdftex.def)             Requested size: 345.5015pt x 302.12468pt.
 
-Overfull \hbox (0.5015pt too wide) in paragraph at lines 130--132
+Overfull \hbox (0.5015pt too wide) in paragraph at lines 135--136
  [][] 
  []
 
 [6 <./pics/2.jpg>] [7]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 201.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 206.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 201.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 206.
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--213
+Underfull \hbox (badness 10000) in paragraph at lines 190--218
 
  []
 
@@ -430,47 +430,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--213
 <pics/integral.png, id=43, 624.08156pt x 359.09157pt>
 File: pics/integral.png Graphic file (type png)
 <use pics/integral.png>
-Package pdftex.def Info: pics/integral.png  used on input line 480.
-(pdftex.def)             Requested size: 374.45183pt x 215.45659pt.
+Package pdftex.def Info: pics/integral.png  used on input line 487.
+(pdftex.def)             Requested size: 349.48329pt x 201.0899pt.
 
-Overfull \hbox (29.45183pt too wide) in paragraph at lines 480--482
+Overfull \hbox (4.48329pt too wide) in paragraph at lines 487--488
  [][] 
  []
 
 
-Overfull \hbox (4.16734pt too wide) in paragraph at lines 386--484
+Overfull \hbox (4.16734pt too wide) in paragraph at lines 392--491
 \OT1/cmr/m/n/10 Both con-trollers man-age and con-trol their un-der-ly-ing re-s
 ources via pro-grammable
  []
 
-[11]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[12]
-<pics/slice.png, id=50, 636.12656pt x 346.29375pt>
+[11] [12] [13 <./pics/integral.png (PNG copy)>]
+<pics/slice.png, id=54, 636.12656pt x 346.29375pt>
 File: pics/slice.png Graphic file (type png)
 <use pics/slice.png>
-Package pdftex.def Info: pics/slice.png  used on input line 524.
-(pdftex.def)             Requested size: 381.67888pt x 207.77785pt.
+Package pdftex.def Info: pics/slice.png  used on input line 511.
+(pdftex.def)             Requested size: 349.87068pt x 190.46214pt.
 
-Overfull \hbox (36.67888pt too wide) in paragraph at lines 524--526
+Overfull \hbox (4.87068pt too wide) in paragraph at lines 511--512
  [][] 
  []
 
-<pics/5g_atom.png, id=51, 553.31718pt x 346.29375pt>
+<pics/5g_atom.png, id=55, 553.31718pt x 346.29375pt>
 File: pics/5g_atom.png Graphic file (type png)
 <use pics/5g_atom.png>
 Package pdftex.def Info: pics/5g_atom.png  used on input line 535.
-(pdftex.def)             Requested size: 276.65791pt x 173.14644pt.
-[13 <./pics/integral.png (PNG copy)>] [14 <./pics/slice.png (PNG copy)>]
-[15 <./pics/5g_atom.png (PNG copy)>] (./network_slicing.bbl) [16]
+(pdftex.def)             Requested size: 348.59166pt x 218.1662pt.
+
+Overfull \hbox (3.59166pt too wide) in paragraph at lines 535--536
+ [][] 
+ []
+
+[14 <./pics/slice.png (PNG copy)>] [15 <./pics/5g_atom.png (PNG copy)>]
+[16]
+<pics/capabilities1.png, id=65, 398.99063pt x 381.67593pt>
+File: pics/capabilities1.png Graphic file (type png)
+<use pics/capabilities1.png>
+Package pdftex.def Info: pics/capabilities1.png  used on input line 597.
+(pdftex.def)             Requested size: 259.34084pt x 248.08641pt.
+<pics/capabilities2.png, id=66, 698.61pt x 518.93875pt>
+File: pics/capabilities2.png Graphic file (type png)
+<use pics/capabilities2.png>
+Package pdftex.def Info: pics/capabilities2.png  used on input line 603.
+(pdftex.def)             Requested size: 349.30414pt x 259.46873pt.
+
+Overfull \hbox (4.30414pt too wide) in paragraph at lines 603--604
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17 <./pics/capabilities1.png (PNG copy)>]
+<pics/example.png, id=71, 611.28375pt x 402.75468pt>
+File: pics/example.png Graphic file (type png)
+<use pics/example.png>
+Package pdftex.def Info: pics/example.png  used on input line 625.
+(pdftex.def)             Requested size: 305.64113pt x 201.37685pt.
+ [18 <./pics/capabilities2.png>]
+[19 <./pics/example.png (PNG copy)>] [20] [21] (./network_slicing.bbl) [22]
 (./network_slicing.aux) ) 
 Here is how much of TeX's memory you used:
- 7031 strings out of 494543
- 102194 string characters out of 6176660
- 230584 words of memory out of 5000000
- 10523 multiletter control sequences out of 15000+600000
+ 7170 strings out of 494543
+ 104396 string characters out of 6176660
+ 234693 words of memory out of 5000000
+ 10659 multiletter control sequences out of 15000+600000
  8231 words of font info for 30 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  45i,8n,42p,2001b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -482,10 +509,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on network_slicing.pdf (16 pages, 773245 bytes).
+Output written on network_slicing.pdf (22 pages, 1003176 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

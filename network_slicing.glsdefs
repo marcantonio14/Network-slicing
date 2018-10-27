@@ -688,3 +688,123 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{NFV}{}%
+{%
+\gls@defglossaryentry{NFV}%
+{%
+name={NFV},%
+sort={NFV},%
+type={acronym},%
+first={Network Functions Virtualization\glsspace (NFV)},%
+firstplural={Network Functions Virtualizations\glsspace (NFVs)},%
+text={NFV},%
+plural={NFVs},%
+description={Network Functions Virtualization},%
+descriptionplural={Network Functions Virtualization\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Network Functions Virtualization},%
+longplural={Network Functions Virtualizations},%
+short={NFV},%
+shortplural={NFVs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{eMBB}{}%
+{%
+\gls@defglossaryentry{eMBB}%
+{%
+name={eMBB},%
+sort={eMBB},%
+type={acronym},%
+first={enhanced mobile broadband\glsspace (eMBB)},%
+firstplural={enhanced mobile broadbands\glsspace (eMBBs)},%
+text={eMBB},%
+plural={eMBBs},%
+description={enhanced mobile broadband},%
+descriptionplural={enhanced mobile broadband\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={enhanced mobile broadband},%
+longplural={enhanced mobile broadbands},%
+short={eMBB},%
+shortplural={eMBBs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mMTC}{}%
+{%
+\gls@defglossaryentry{mMTC}%
+{%
+name={mMTC},%
+sort={mMTC},%
+type={acronym},%
+first={massive machine\IeC {-}type communications\glsspace (mMTC)},%
+firstplural={massive machine\IeC {-}type communicationss\glsspace (mMTCs)},%
+text={mMTC},%
+plural={mMTCs},%
+description={massive machine‐type communications},%
+descriptionplural={massive machine‐type communications\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={massive machine\IeC {-}type communications},%
+longplural={massive machine\IeC {-}type communicationss},%
+short={mMTC},%
+shortplural={mMTCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{URLLC}{}%
+{%
+\gls@defglossaryentry{URLLC}%
+{%
+name={URLLC},%
+sort={URLLC},%
+type={acronym},%
+first={ultra\IeC {-}reliable low\IeC {-}latency communications\glsspace (URLLC)},%
+firstplural={ultra\IeC {-}reliable low\IeC {-}latency communicationss\glsspace (URLLCs)},%
+text={URLLC},%
+plural={URLLCs},%
+description={ultra‐reliable low‐latency communications},%
+descriptionplural={ultra‐reliable low‐latency communications\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={ultra\IeC {-}reliable low\IeC {-}latency communications},%
+longplural={ultra\IeC {-}reliable low\IeC {-}latency communicationss},%
+short={URLLC},%
+shortplural={URLLCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

@@ -5,9 +5,12 @@
 \contentsline {subsubsection}{\numberline {2.1.2}Virtualization}{8}
 \contentsline {subsubsection}{\numberline {2.1.3}Orchestration}{8}
 \contentsline {paragraph}{\numberline {2.1.3.1}Isolation}{9}
-\contentsline {subsubsection}{\numberline {2.1.4}SDN}{9}
-\contentsline {subsubsection}{\numberline {2.1.5}VNF}{11}
-\contentsline {section}{\numberline {3}Network slicing}{13}
-\contentsline {subsection}{\numberline {3.1}Services}{15}
-\contentsline {subsection}{\numberline {3.2}Example}{15}
-\contentsline {subsection}{\numberline {3.3}Actual realizations}{15}
+\contentsline {subsubsection}{\numberline {2.1.4}SDN: Software-Defined Network}{9}
+\contentsline {subsubsection}{\numberline {2.1.5}NFV: Network Functions Virtualization}{11}
+\contentsline {section}{\numberline {3}Network Slicing}{14}
+\contentsline {subsection}{\numberline {3.1}Main Services Types}{16}
+\contentsline {subsection}{\numberline {3.2}Example}{18}
+\contentsline {paragraph}{\numberline {3.2.0.1}5G Services on Factory Premises}{18}
+\contentsline {paragraph}{\numberline {3.2.0.2}Ownership of Infrastructure, Spectrum, and Subscriber Data}{19}
+\contentsline {paragraph}{\numberline {3.2.0.3}Domain\IeC {-}specific Network Slice Deployment}{20}
+\contentsline {subsection}{\numberline {3.3}Actual Implementations}{20}
