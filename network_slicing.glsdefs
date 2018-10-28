@@ -1378,3 +1378,423 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{RRM}{}%
+{%
+\gls@defglossaryentry{RRM}%
+{%
+name={RRM},%
+sort={RRM},%
+type={acronym},%
+first={Radio Resource Management\glsspace (RRM)},%
+firstplural={Radio Resource Managements\glsspace (RRMs)},%
+text={RRM},%
+plural={RRMs},%
+description={Radio Resource Management},%
+descriptionplural={Radio Resource Management\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Radio Resource Management},%
+longplural={Radio Resource Managements},%
+short={RRM},%
+shortplural={RRMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{HSS}{}%
+{%
+\gls@defglossaryentry{HSS}%
+{%
+name={HSS},%
+sort={HSS},%
+type={acronym},%
+first={Home Subscriber System\glsspace (HSS)},%
+firstplural={Home Subscriber Systems\glsspace (HSSs)},%
+text={HSS},%
+plural={HSSs},%
+description={Home Subscriber System},%
+descriptionplural={Home Subscriber System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Home Subscriber System},%
+longplural={Home Subscriber Systems},%
+short={HSS},%
+shortplural={HSSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{UDM}{}%
+{%
+\gls@defglossaryentry{UDM}%
+{%
+name={UDM},%
+sort={UDM},%
+type={acronym},%
+first={Unified Data Management\glsspace (UDM)},%
+firstplural={Unified Data Managements\glsspace (UDMs)},%
+text={UDM},%
+plural={UDMs},%
+description={Unified Data Management},%
+descriptionplural={Unified Data Management\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Unified Data Management},%
+longplural={Unified Data Managements},%
+short={UDM},%
+shortplural={UDMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{AUSF}{}%
+{%
+\gls@defglossaryentry{AUSF}%
+{%
+name={AUSF},%
+sort={AUSF},%
+type={acronym},%
+first={Authentication Server Functions\glsspace (AUSF)},%
+firstplural={Authentication Server Functionss\glsspace (AUSFs)},%
+text={AUSF},%
+plural={AUSFs},%
+description={Authentication Server Functions},%
+descriptionplural={Authentication Server Functions\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Authentication Server Functions},%
+longplural={Authentication Server Functionss},%
+short={AUSF},%
+shortplural={AUSFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{IoT}{}%
+{%
+\gls@defglossaryentry{IoT}%
+{%
+name={IoT},%
+sort={IoT},%
+type={acronym},%
+first={Internet of Things\glsspace (IoT)},%
+firstplural={Internet of Thingss\glsspace (IoTs)},%
+text={IoT},%
+plural={IoTs},%
+description={Internet of Things},%
+descriptionplural={Internet of Things\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Internet of Things},%
+longplural={Internet of Thingss},%
+short={IoT},%
+shortplural={IoTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{UPF}{}%
+{%
+\gls@defglossaryentry{UPF}%
+{%
+name={UPF},%
+sort={UPF},%
+type={acronym},%
+first={User Plane Processing Functions\glsspace (UPF)},%
+firstplural={User Plane Processing Functionss\glsspace (UPFs)},%
+text={UPF},%
+plural={UPFs},%
+description={User Plane Processing Functions},%
+descriptionplural={User Plane Processing Functions\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={User Plane Processing Functions},%
+longplural={User Plane Processing Functionss},%
+short={UPF},%
+shortplural={UPFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{CPF}{}%
+{%
+\gls@defglossaryentry{CPF}%
+{%
+name={CPF},%
+sort={CPF},%
+type={acronym},%
+first={Control Plane Processing Functions\glsspace (CPF)},%
+firstplural={Control Plane Processing Functionss\glsspace (CPFs)},%
+text={CPF},%
+plural={CPFs},%
+description={Control Plane Processing Functions},%
+descriptionplural={Control Plane Processing Functions\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Control Plane Processing Functions},%
+longplural={Control Plane Processing Functionss},%
+short={CPF},%
+shortplural={CPFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{AMF}{}%
+{%
+\gls@defglossaryentry{AMF}%
+{%
+name={AMF},%
+sort={AMF},%
+type={acronym},%
+first={Access and Mobility Management Function\glsspace (AMF)},%
+firstplural={Access and Mobility Management Functions\glsspace (AMFs)},%
+text={AMF},%
+plural={AMFs},%
+description={Access and Mobility Management Function},%
+descriptionplural={Access and Mobility Management Function\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Access and Mobility Management Function},%
+longplural={Access and Mobility Management Functions},%
+short={AMF},%
+shortplural={AMFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SMF}{}%
+{%
+\gls@defglossaryentry{SMF}%
+{%
+name={SMF},%
+sort={SMF},%
+type={acronym},%
+first={Session Management Function\glsspace (SMF)},%
+firstplural={Session Management Functions\glsspace (SMFs)},%
+text={SMF},%
+plural={SMFs},%
+description={Session Management Function},%
+descriptionplural={Session Management Function\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Session Management Function},%
+longplural={Session Management Functions},%
+short={SMF},%
+shortplural={SMFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{UDM}{}%
+{%
+\gls@defglossaryentry{UDM}%
+{%
+name={UDM},%
+sort={UDM},%
+type={acronym},%
+first={Unified Data Management\glsspace (UDM)},%
+firstplural={Unified Data Managements\glsspace (UDMs)},%
+text={UDM},%
+plural={UDMs},%
+description={Unified Data Management},%
+descriptionplural={Unified Data Management\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Unified Data Management},%
+longplural={Unified Data Managements},%
+short={UDM},%
+shortplural={UDMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{NAS}{}%
+{%
+\gls@defglossaryentry{NAS}%
+{%
+name={NAS},%
+sort={NAS},%
+type={acronym},%
+first={Non\IeC {-}Access Stratum\glsspace (NAS)},%
+firstplural={Non\IeC {-}Access Stratums\glsspace (NASs)},%
+text={NAS},%
+plural={NASs},%
+description={Non‐Access Stratum},%
+descriptionplural={Non‐Access Stratum\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Non\IeC {-}Access Stratum},%
+longplural={Non\IeC {-}Access Stratums},%
+short={NAS},%
+shortplural={NASs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{RRC}{}%
+{%
+\gls@defglossaryentry{RRC}%
+{%
+name={RRC},%
+sort={RRC},%
+type={acronym},%
+first={Radio Resource Control\glsspace (RRC)},%
+firstplural={Radio Resource Controls\glsspace (RRCs)},%
+text={RRC},%
+plural={RRCs},%
+description={Radio Resource Control},%
+descriptionplural={Radio Resource Control\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Radio Resource Control},%
+longplural={Radio Resource Controls},%
+short={RRC},%
+shortplural={RRCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{RLC}{}%
+{%
+\gls@defglossaryentry{RLC}%
+{%
+name={RLC},%
+sort={RLC},%
+type={acronym},%
+first={Radio Link Control\glsspace (RLC)},%
+firstplural={Radio Link Controls\glsspace (RLCs)},%
+text={RLC},%
+plural={RLCs},%
+description={Radio Link Control},%
+descriptionplural={Radio Link Control\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Radio Link Control},%
+longplural={Radio Link Controls},%
+short={RLC},%
+shortplural={RLCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{PDCP}{}%
+{%
+\gls@defglossaryentry{PDCP}%
+{%
+name={PDCP},%
+sort={PDCP},%
+type={acronym},%
+first={acket Data Convergence Protocol\glsspace (PDCP)},%
+firstplural={acket Data Convergence Protocols\glsspace (PDCPs)},%
+text={PDCP},%
+plural={PDCPs},%
+description={acket Data Convergence Protocol},%
+descriptionplural={acket Data Convergence Protocol\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={acket Data Convergence Protocol},%
+longplural={acket Data Convergence Protocols},%
+short={PDCP},%
+shortplural={PDCPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
