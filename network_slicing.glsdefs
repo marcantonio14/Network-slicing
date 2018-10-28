@@ -268,9 +268,9 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{cn}{}%
+\ifglsentryexists{CN}{}%
 {%
-\gls@defglossaryentry{cn}%
+\gls@defglossaryentry{CN}%
 {%
 name={CN},%
 sort={CN},%
@@ -803,6 +803,576 @@ long={ultra\IeC {-}reliable low\IeC {-}latency communications},%
 longplural={ultra\IeC {-}reliable low\IeC {-}latency communicationss},%
 short={URLLC},%
 shortplural={URLLCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{VM}{}%
+{%
+\gls@defglossaryentry{VM}%
+{%
+name={VM},%
+sort={VM},%
+type={acronym},%
+first={Virtual Machines\glsspace (VM)},%
+firstplural={Virtual Machiness\glsspace (VMs)},%
+text={VM},%
+plural={VMs},%
+description={Virtual Machines},%
+descriptionplural={Virtual Machines\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Virtual Machines},%
+longplural={Virtual Machiness},%
+short={VM},%
+shortplural={VMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{InP}{}%
+{%
+\gls@defglossaryentry{InP}%
+{%
+name={InP},%
+sort={InP},%
+type={acronym},%
+first={Infrastructure provider\glsspace (InP)},%
+firstplural={Infrastructure providers\glsspace (InPs)},%
+text={InP},%
+plural={InPs},%
+description={Infrastructure provider},%
+descriptionplural={Infrastructure provider\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Infrastructure provider},%
+longplural={Infrastructure providers},%
+short={InP},%
+shortplural={InPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ONF}{}%
+{%
+\gls@defglossaryentry{ONF}%
+{%
+name={ONF},%
+sort={ONF},%
+type={acronym},%
+first={Open Networking Foundation\glsspace (ONF)},%
+firstplural={Open Networking Foundations\glsspace (ONFs)},%
+text={ONF},%
+plural={ONFs},%
+description={Open Networking Foundation},%
+descriptionplural={Open Networking Foundation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Open Networking Foundation},%
+longplural={Open Networking Foundations},%
+short={ONF},%
+shortplural={ONFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SLA}{}%
+{%
+\gls@defglossaryentry{SLA}%
+{%
+name={SLA},%
+sort={SLA},%
+type={acronym},%
+first={Service Level Agreements\glsspace (SLA)},%
+firstplural={Service Level Agreementss\glsspace (SLAs)},%
+text={SLA},%
+plural={SLAs},%
+description={Service Level Agreements},%
+descriptionplural={Service Level Agreements\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Service Level Agreements},%
+longplural={Service Level Agreementss},%
+short={SLA},%
+shortplural={SLAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{KPI}{}%
+{%
+\gls@defglossaryentry{KPI}%
+{%
+name={KPI},%
+sort={KPI},%
+type={acronym},%
+first={Key Performance Indicators\glsspace (KPI)},%
+firstplural={Key Performance Indicatorss\glsspace (KPIs)},%
+text={KPI},%
+plural={KPIs},%
+description={Key Performance Indicators},%
+descriptionplural={Key Performance Indicators\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Key Performance Indicators},%
+longplural={Key Performance Indicatorss},%
+short={KPI},%
+shortplural={KPIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{NFVI}{}%
+{%
+\gls@defglossaryentry{NFVI}%
+{%
+name={NFVI},%
+sort={NFVI},%
+type={acronym},%
+first={Network Functions Virtualization Infrastructure\glsspace (NFVI)},%
+firstplural={Network Functions Virtualization Infrastructures\glsspace (NFVIs)},%
+text={NFVI},%
+plural={NFVIs},%
+description={Network Functions Virtualization Infrastructure},%
+descriptionplural={Network Functions Virtualization Infrastructure\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Network Functions Virtualization Infrastructure},%
+longplural={Network Functions Virtualization Infrastructures},%
+short={NFVI},%
+shortplural={NFVIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{VIM}{}%
+{%
+\gls@defglossaryentry{VIM}%
+{%
+name={VIM},%
+sort={VIM},%
+type={acronym},%
+first={Virtual Infrastructure Manager\glsspace (VIM)},%
+firstplural={Virtual Infrastructure Managers\glsspace (VIMs)},%
+text={VIM},%
+plural={VIMs},%
+description={Virtual Infrastructure Manager},%
+descriptionplural={Virtual Infrastructure Manager\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Virtual Infrastructure Manager},%
+longplural={Virtual Infrastructure Managers},%
+short={VIM},%
+shortplural={VIMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{VNFM}{}%
+{%
+\gls@defglossaryentry{VNFM}%
+{%
+name={VNFM},%
+sort={VNFM},%
+type={acronym},%
+first={Virtual Network Function Manager\glsspace (VNFM)},%
+firstplural={Virtual Network Function Managers\glsspace (VNFMs)},%
+text={VNFM},%
+plural={VNFMs},%
+description={Virtual Network Function Manager},%
+descriptionplural={Virtual Network Function Manager\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Virtual Network Function Manager},%
+longplural={Virtual Network Function Managers},%
+short={VNFM},%
+shortplural={VNFMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{RO}{}%
+{%
+\gls@defglossaryentry{RO}%
+{%
+name={RO},%
+sort={RO},%
+type={acronym},%
+first={Resource Orchestrator\glsspace (RO)},%
+firstplural={Resource Orchestrators\glsspace (ROs)},%
+text={RO},%
+plural={ROs},%
+description={Resource Orchestrator},%
+descriptionplural={Resource Orchestrator\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Resource Orchestrator},%
+longplural={Resource Orchestrators},%
+short={RO},%
+shortplural={ROs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{NSO}{}%
+{%
+\gls@defglossaryentry{NSO}%
+{%
+name={NSO},%
+sort={NSO},%
+type={acronym},%
+first={Network Service Orchestrator\glsspace (NSO)},%
+firstplural={Network Service Orchestrators\glsspace (NSOs)},%
+text={NSO},%
+plural={NSOs},%
+description={Network Service Orchestrator},%
+descriptionplural={Network Service Orchestrator\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Network Service Orchestrator},%
+longplural={Network Service Orchestrators},%
+short={NSO},%
+shortplural={NSOs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{NMS}{}%
+{%
+\gls@defglossaryentry{NMS}%
+{%
+name={NMS},%
+sort={NMS},%
+type={acronym},%
+first={Network Management System\glsspace (NMS)},%
+firstplural={Network Management Systems\glsspace (NMSs)},%
+text={NMS},%
+plural={NMSs},%
+description={Network Management System},%
+descriptionplural={Network Management System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Network Management System},%
+longplural={Network Management Systems},%
+short={NMS},%
+shortplural={NMSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{OSS/BSS}{}%
+{%
+\gls@defglossaryentry{OSS/BSS}%
+{%
+name={OSS/BSS},%
+sort={OSS/BSS},%
+type={acronym},%
+first={Operation/Business Support System\glsspace (OSS/BSS)},%
+firstplural={Operation/Business Support Systems\glsspace (OSS/BSSs)},%
+text={OSS/BSS},%
+plural={OSS/BSSs},%
+description={Operation/Business Support System},%
+descriptionplural={Operation/Business Support System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Operation/Business Support System},%
+longplural={Operation/Business Support Systems},%
+short={OSS/BSS},%
+shortplural={OSS/BSSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{EM}{}%
+{%
+\gls@defglossaryentry{EM}%
+{%
+name={EM},%
+sort={EM},%
+type={acronym},%
+first={Element Management\glsspace (EM)},%
+firstplural={Element Managements\glsspace (EMs)},%
+text={EM},%
+plural={EMs},%
+description={Element Management},%
+descriptionplural={Element Management\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Element Management},%
+longplural={Element Managements},%
+short={EM},%
+shortplural={EMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{IC}{}%
+{%
+\gls@defglossaryentry{IC}%
+{%
+name={IC},%
+sort={IC},%
+type={acronym},%
+first={Infrastructure SDN controller\glsspace (IC)},%
+firstplural={Infrastructure SDN controllers\glsspace (ICs)},%
+text={IC},%
+plural={ICs},%
+description={Infrastructure SDN controller},%
+descriptionplural={Infrastructure SDN controller\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Infrastructure SDN controller},%
+longplural={Infrastructure SDN controllers},%
+short={IC},%
+shortplural={ICs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{TC}{}%
+{%
+\gls@defglossaryentry{TC}%
+{%
+name={TC},%
+sort={TC},%
+type={acronym},%
+first={Tenant SDN controller\glsspace (TC)},%
+firstplural={Tenant SDN controllers\glsspace (TCs)},%
+text={TC},%
+plural={TCs},%
+description={Tenant SDN controller},%
+descriptionplural={Tenant SDN controller\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Tenant SDN controller},%
+longplural={Tenant SDN controllers},%
+short={TC},%
+shortplural={TCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{EPC}{}%
+{%
+\gls@defglossaryentry{EPC}%
+{%
+name={EPC},%
+sort={EPC},%
+type={acronym},%
+first={Evolved Packet Core\glsspace (EPC)},%
+firstplural={Evolved Packet Cores\glsspace (EPCs)},%
+text={EPC},%
+plural={EPCs},%
+description={Evolved Packet Core},%
+descriptionplural={Evolved Packet Core\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Evolved Packet Core},%
+longplural={Evolved Packet Cores},%
+short={EPC},%
+shortplural={EPCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{RAN}{}%
+{%
+\gls@defglossaryentry{RAN}%
+{%
+name={RAN},%
+sort={RAN},%
+type={acronym},%
+first={Radio Access Network\glsspace (RAN)},%
+firstplural={Radio Access Networks\glsspace (RANs)},%
+text={RAN},%
+plural={RANs},%
+description={Radio Access Network},%
+descriptionplural={Radio Access Network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Radio Access Network},%
+longplural={Radio Access Networks},%
+short={RAN},%
+shortplural={RANs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{QoS}{}%
+{%
+\gls@defglossaryentry{QoS}%
+{%
+name={QoS},%
+sort={QoS},%
+type={acronym},%
+first={Quality of Service\glsspace (QoS)},%
+firstplural={Quality of Services\glsspace (QoSs)},%
+text={QoS},%
+plural={QoSs},%
+description={Quality of Service},%
+descriptionplural={Quality of Service\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Quality of Service},%
+longplural={Quality of Services},%
+short={QoS},%
+shortplural={QoSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{QoE}{}%
+{%
+\gls@defglossaryentry{QoE}%
+{%
+name={QoE},%
+sort={QoE},%
+type={acronym},%
+first={Quality of Experience\glsspace (QoE)},%
+firstplural={Quality of Experiences\glsspace (QoEs)},%
+text={QoE},%
+plural={QoEs},%
+description={Quality of Experience},%
+descriptionplural={Quality of Experience\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Quality of Experience},%
+longplural={Quality of Experiences},%
+short={QoE},%
+shortplural={QoEs},%
 counter={page},%
 parent={},%
 %
