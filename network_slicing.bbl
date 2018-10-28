@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 
 \bibitem{al20185g}
 Anwer Al-Dulaimi, Xianbin Wang, and I~Chih-Lin.
@@ -13,21 +13,16 @@ Carsten Bockelmann, Nuno Pratas, Hosein Nikopour, Kelvin Au, Tommy Svensson,
   solutions.
 \newblock {\em IEEE Communications Magazine}, 54(9):59--65, 2016.
 
-\bibitem{condolucimiot}
-M~Condoluci, R~Trivisonno, T~Mahmoodi, and X~An.
-\newblock miot connectivity solutions for enhanced 5g systems.
-
 \bibitem{doherty2016sdn}
 Jim Doherty.
 \newblock {\em SDN and NFV simplified: a visual guide to understanding software
   defined networks and network function virtualization}.
 \newblock Addison-Wesley Professional, 2016.
 
-\bibitem{habibi2017network}
-Mohammad~Asif Habibi, Bin Han, and Hans~D Schotten.
-\newblock Network slicing in 5g mobile communication architecture, profit
-  modeling, and challenges.
-\newblock {\em arXiv preprint arXiv:1707.00852}, 2017.
+\bibitem{etsi2015gs}
+NFVISG ETSI.
+\newblock Gs nfv-eve 005 v1. 1.1 network function virtualisation (nfv);
+  ecosystem; report on sdn usage in nfv architectural framework, 2015.
 
 \bibitem{marsch20185g}
 Patrick Marsch, {\"O}mer Bulakci, Olav Queseth, and Mauro Boldi.

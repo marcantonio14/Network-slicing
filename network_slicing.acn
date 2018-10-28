@@ -6,8 +6,8 @@
 \glossaryentry{FH?\glossentry{fh}|setentrycounter[]{page}\glsnumberformat}{6}
 \glossaryentry{BH?\glossentry{bh}|setentrycounter[]{page}\glsnumberformat}{6}
 \glossaryentry{CN?\glossentry{CN}|setentrycounter[]{page}\glsnumberformat}{6}
-\glossaryentry{VI?\glossentry{vi}|setentrycounter[]{page}\glsnumberformat}{6}
-\glossaryentry{IaaS?\glossentry{IaaS}|setentrycounter[]{page}\glsnumberformat}{6}
+\glossaryentry{VI?\glossentry{vi}|setentrycounter[]{page}\glsnumberformat}{7}
+\glossaryentry{IaaS?\glossentry{IaaS}|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{NS?\glossentry{NS}|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{SDN?\glossentry{sdn}|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{VNF?\glossentry{VNF}|setentrycounter[]{page}\glsnumberformat}{7}
@@ -15,6 +15,7 @@
 \glossaryentry{NBI?\glossentry{NBI}|setentrycounter[]{page}\glsnumberformat}{9}
 \glossaryentry{SBI?\glossentry{SBI}|setentrycounter[]{page}\glsnumberformat}{9}
 \glossaryentry{MTA?\glossentry{MTA}|setentrycounter[]{page}\glsnumberformat}{9}
+\glossaryentry{API?\glossentry{API}|setentrycounter[]{page}\glsnumberformat}{9}
 \glossaryentry{NFV?\glossentry{NFV}|setentrycounter[]{page}\glsnumberformat}{9}
 \glossaryentry{NF?\glossentry{NF}|setentrycounter[]{page}\glsnumberformat}{9}
 \glossaryentry{CP?\glossentry{CP}|setentrycounter[]{page}\glsnumberformat}{10}

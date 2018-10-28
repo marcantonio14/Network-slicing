@@ -1798,3 +1798,33 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{API}{}%
+{%
+\gls@defglossaryentry{API}%
+{%
+name={API},%
+sort={API},%
+type={acronym},%
+first={Application Program Interface\glsspace (API)},%
+firstplural={Application Program Interfaces\glsspace (APIs)},%
+text={API},%
+plural={APIs},%
+description={Application Program Interface},%
+descriptionplural={Application Program Interface\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Application Program Interface},%
+longplural={Application Program Interfaces},%
+short={API},%
+shortplural={APIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
