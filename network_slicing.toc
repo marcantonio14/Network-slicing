@@ -1,17 +1,17 @@
-\contentsline {section}{\numberline {1\let \Hy@linktoc \Hy@linktoc@none }Introduction}{5}{section.0.1}
-\contentsline {section}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none }Architecture for Network Slicing}{8}{section.0.2}
-\contentsline {subsection}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none .1}Enablers and Design Principles}{9}{subsection.0.2.1}
-\contentsline {subsubsection}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none .1.1}Modularization}{9}{subsubsection.0.2.1.1}
-\contentsline {subsubsection}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none .1.2}Virtualization}{10}{subsubsection.0.2.1.2}
-\contentsline {subsubsection}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none .1.3}Orchestration}{11}{subsubsection.0.2.1.3}
-\contentsline {paragraph}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none .1.3.1}Isolation}{11}{paragraph.0.2.1.3.1}
-\contentsline {subsubsection}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none .1.4}SDN: Software-Defined Network}{12}{subsubsection.0.2.1.4}
-\contentsline {subsubsection}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none .1.5}NFV: Network Functions Virtualization}{13}{subsubsection.0.2.1.5}
-\contentsline {section}{\numberline {3\let \Hy@linktoc \Hy@linktoc@none }Network Slicing}{16}{section.0.3}
-\contentsline {subsection}{\numberline {3\let \Hy@linktoc \Hy@linktoc@none .1}Main Services Types}{18}{subsection.0.3.1}
-\contentsline {subsection}{\numberline {3\let \Hy@linktoc \Hy@linktoc@none .2}Example}{21}{subsection.0.3.2}
-\contentsline {subsubsection}{\numberline {3\let \Hy@linktoc \Hy@linktoc@none .2.1}5G Services on Factory Premises}{21}{subsubsection.0.3.2.1}
-\contentsline {subsubsection}{\numberline {3\let \Hy@linktoc \Hy@linktoc@none .2.2}Ownership of Infrastructure, Spectrum, and Subscriber Data}{22}{subsubsection.0.3.2.2}
-\contentsline {subsubsection}{\numberline {3\let \Hy@linktoc \Hy@linktoc@none .2.3}Domain\IeC {-}specific Network Slice Deployment}{23}{subsubsection.0.3.2.3}
-\contentsline {subsection}{\numberline {3\let \Hy@linktoc \Hy@linktoc@none .3}Actual Implementations}{23}{subsection.0.3.3}
-\contentsline {chapter}{Bibliography}{24}{section*.4}
+\contentsline {section}{\numberline {1\let \Hy@linktoc \Hy@linktoc@none }Introduction}{1}{section.0.1}
+\contentsline {section}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none }Architecture for Network Slicing}{4}{section.0.2}
+\contentsline {subsection}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none .1}Enablers and Design Principles}{5}{subsection.0.2.1}
+\contentsline {subsubsection}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none .1.1}Modularization}{5}{subsubsection.0.2.1.1}
+\contentsline {subsubsection}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none .1.2}Virtualization}{6}{subsubsection.0.2.1.2}
+\contentsline {subsubsection}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none .1.3}Orchestration}{7}{subsubsection.0.2.1.3}
+\contentsline {paragraph}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none .1.3.1}Isolation}{8}{paragraph.0.2.1.3.1}
+\contentsline {subsubsection}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none .1.4}SDN: Software-Defined Network}{8}{subsubsection.0.2.1.4}
+\contentsline {subsubsection}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none .1.5}NFV: Network Functions Virtualization}{10}{subsubsection.0.2.1.5}
+\contentsline {section}{\numberline {3\let \Hy@linktoc \Hy@linktoc@none }Network Slicing}{13}{section.0.3}
+\contentsline {subsection}{\numberline {3\let \Hy@linktoc \Hy@linktoc@none .1}Main Services Types}{15}{subsection.0.3.1}
+\contentsline {subsection}{\numberline {3\let \Hy@linktoc \Hy@linktoc@none .2}Example}{19}{subsection.0.3.2}
+\contentsline {subsubsection}{\numberline {3\let \Hy@linktoc \Hy@linktoc@none .2.1}5G Services on Factory Premises}{19}{subsubsection.0.3.2.1}
+\contentsline {subsubsection}{\numberline {3\let \Hy@linktoc \Hy@linktoc@none .2.2}Ownership of Infrastructure, Spectrum, and Subscriber Data}{19}{subsubsection.0.3.2.2}
+\contentsline {subsubsection}{\numberline {3\let \Hy@linktoc \Hy@linktoc@none .2.3}Domain\IeC {-}specific Network Slice Deployment}{20}{subsubsection.0.3.2.3}
+\contentsline {subsection}{\numberline {3\let \Hy@linktoc \Hy@linktoc@none .3}Actual Implementations}{21}{subsection.0.3.3}
+\contentsline {chapter}{Bibliography}{22}{section*.4}
