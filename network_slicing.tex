@@ -129,33 +129,32 @@ FUNDAMENTAL ELEMENTS, ARCHITECTURE AND TARGETS~\\[2cm]
 \setcounter{page}{1}
 \pagestyle{fancy}
 \section{Introduction}
-Mobile networks are a key element of today's society, enabling communication, access
+Mobile networks are a key element of today's society, allowing communication, access
 and information sharing. Moreover, traffic forecasts predict that the
-demand for capacity will grow exponentially over the next years, mainly due to
-video services. \\
-However, as cellular networks move from being voice-centric to
-data-centric, operators' revenues are not able to keep pace with the predicted
-increase in traffic volume. Such pressure on operators' return on investment has
-pushed research efforts toward designing for 5G novel mobile network solutions
-able to open the door for new revenue sources. In this context, the network
-slicing paradigm has emerged as a key 5G disruptive technology addressing this
-challenge.\\
+demand for capacity will grow exponentially over the next years, this is due mainly to
+video services.\\ 
+Indeed, since cellular networks move from being voice-centric to
+data-centric, telecommunication operators are not able to keep pace with the predicted
+increase in traffic volume. Such pressure on operators has
+pushed research efforts toward designing 5G novel mobile network solutions
+able to open the frontier for new capabilities and revenue sources. In this context, the network
+slicing paradigm has emerged as a key 5G technology addressing this challenge.\\
 Network slicing for 5G allows \gls{mno} to open
-their physical network infrastructure platform to the concurrent deployment
-of multiple logical self-contained networks, orchestrated in different ways according
+their physical network infrastructure platforms to the concurrent deployment
+of multiple logical self-contained networks, orchestrated according
 to their specific service requirements; such network slices are then
-(temporarily) owned by tenants. The availability of this vertical market\footnote{A vertical market is a group of companies that serve each other's specialized needs and do not serve a broader market, therefore it is tightly focused on meeting the needs of one specific industry.} multiplies
-the monetization opportunities of the network infrastructure as new
-players may come into play (e.g., automotive industry, e-health) and an higher
-infrastructure capacity utilization can be achieved by admitting network slice
+(temporarily) owned by tenants. The availability of this vertical market\footnote{A vertical market is a group of companies that serve each other's specialized needs and do not serve a broader market, therefore it is mostly focused on meeting the needs of one specific industry.} multiplies
+the money incoming opportunities of the network infrastructure as new
+opportunities come into play (e.g., automotive industry, e-health) and an higher
+infrastructure capacity utilization can be achieved by letting network slice
 requests and exploiting multiplexing gains.\\
-With network slicing for 5G networks, different services (e.g., automotive,
-mobile broadband, or tactile Internet) can be provided by different network slice
-instances. Each of these instances consists of a set of virtual network functions
+With network slicing implementations, different services like automotive,
+mobile broadband, or tactile Internet can be provided by different network slice
+instances: each of these instances consist of a set of virtual network functions
 that run on the same infrastructure with a tailored orchestration. In this way,
-very heterogeneous requirements can be provided on the same infrastructure, as
+very different requirements can run on the same infrastructure, as
 different network slice instances can be orchestrated and configured separately
-according to their specific requirements. Additionally, this is performed in a
+according to their specific requirements. Moreover, this is performed in a
 cost-efficient manner as the different network slice tenants share the same
 physical infrastructure.\\
 A network slice is defined by \gls{ngmn} as “\textit{a set of network functions, and
@@ -173,66 +172,41 @@ namely:
 \begin{enumerate}[3]
 \item Resource Layer.
 \end{enumerate}
-The SIL represents the end user and/or
-business services provided by the operator or the third-party service providers,
-which are supported by the NISL. The NISL
-is in turn supported by the resource layer, which may consist of the organic
-resources such as compute, network, memory, storage, or it may be more
-comprehensive as being a network infrastructure, or it may be more complex
-as network functions.\\
-Figure \ref{layers} depicts this concept where the resources at
-the resource layer are sized to create several sub-network instances,
-and network slice instances are formed that may use none, one, or multiple sub
-network instances.\\
-\begin{figure}
+The SIL represents the business/end user services furnished by operators or the third party service providers, which are supported by the NISL. The NISL is set of necessary functions to run the instances and the resource layer, which consists of the
+resources such as compute, network, memory, storage.\\
+The end goal of network slicing in 5G mobile networks is to realize
+\gls{e2e} network slices starting from the mobile edge, continuing
+through the mobile transport (\gls{fh}/\gls{bh}), and up until
+\gls{CN}. The allocation of a slice involves the selection of the
+required functions, their constrained placement, the composition of the underlying infrastructure, and the allocation of the resources to fulfill the service's requirements, for example, bandwidth, latency, processing, resiliency.\\
+The two main slicing services needed to allow different degrees
+of control and management automation in NSIL and resource layers are: the \gls{vi} under the control and operation
+of different tenants coherent with an \gls{IaaS} model\footnote{Form of cloud computing that provides virtualized computing resources over the internet} to split information from hardware; \gls{NS} owned by tenants, that is actually creation of a service instance.
+The VIs can be operated by the tenant via different \gls{sdn}, NS are instantiated directly over a shared infrastructure
+and as a set of interrelated \gls{VNF} connected through
+one or more VNF forwarding graphs; both of them will be discussed later.\\
+Multi-tenancy is an characteristic that it must be achieved to guarantee separation, isolation, and independence between
+different slices coupled with the efficient sharing of the underlying resources
+for both VI and NS concepts.\\
+\begin{figure}[H]
 \centering
 \includegraphics[scale=0.65]{pics/1.JPG}
 \caption{Example of network slicing in 5G. \cite{al20185g}}
 \label{layers}
-\end{figure}The end goal of network slicing in 5G mobile networks is to be able to realize
-\gls{e2e} network slices starting from the mobile edge, continuing
-through the mobile transport (\gls{fh}/\gls{bh}), and up until
-\gls{CN}. The allocation of a slice involves the selection of the
-required functions, their constrained placement, the composition of the underlying infrastructure, and the allocation of the resources to fulfill the services' requirements, for example, bandwidth, latency, processing, resiliency.\\
-The two main network slicing services that enable different degrees
-of explicit control and are characterized by different levels of automation of the
-mobile network slices management:
-\begin{itemize}
-\item The provision of \gls{vi} under the control and operation
-of different tenants-in line with an \gls{IaaS} model\footnote{Form of cloud computing that provides virtualized computing resources over the internet},
-that is, creation of a network slice instance;
-\end{itemize}
-\begin{itemize}
-\item The provision of tenant's owned \gls{NS}, that is, creation of a service instance.
-In the former service, the deployment of a mobile network deals with the
-allocation and deallocation of VIs.
-\end{itemize}
-The logical entities within a VI encompassing
-a set of compute and storage resources are interconnected by a virtual, logical
-network (i.e., virtual nodes are interconnected by virtual links over the substrate
-network). The VIs can be operated by the tenant via different \gls{sdn} control
-models. In the latter, NS are instantiated directly over a shared infrastructure,
-and as a set of interrelated \gls{VNF} connected through
-one or more VNF forwarding graphs.\\
-Multi-tenancy is an characteristic that can be applied to both
-kinds of services, guaranteeing separation, isolation, and independence between
-different slices coupled with the efficient sharing of the underlying resources
-for both VI and NS concepts.\\
-In this context, a tenant is a logical entity owning and operating either one or more VIs or one or more network services. A tenant can be associated with an administrative entity (e.g., mobile virtual network operators) or
-user of a given service (e.g., over-the-top service providers).\\
-After this general overview of the situation, this essay will treat accurately all the necessary fundamental components in order to fully understand how 5G network slicing is actually built.
+\end{figure}
+After this general overview this essay will treat accurately all the necessary fundamental components in order to fully understand how 5G network slicing is planned actually to be built.
 
 
 \newpage
 \section{Architecture for Network Slicing} 
-Starting from how an architecture for network slicing is conceptually made, it will be explained what it should achieve and involve, that is, the aspects of modularization, resource virtualization, virtual infrastructure, and network service management; they will be the main topics of this section.
+Starting from how an architecture for network slicing is conceptually made, it will be explained what it should achieve and involve, that is, the aspects of modularization, resource virtualization, virtual infrastructure and network service management; they will be the main topics of this section.
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.67]{pics/2.JPG}
 \caption{Architecture for network slicing. \cite{al20185g}} 
 \label{Arch}
 \end{figure}
-The design proposed in Fig. \ref{Arch} follows the SDN principles of:
+As anticipated about virtualization of the infrastructure, the SDN design is proposed in Fig. \ref{Arch} and follows the principles of:
 \begin{itemize}
 \item data and control plane fully decoupled;
 \end{itemize}
@@ -242,47 +216,43 @@ The design proposed in Fig. \ref{Arch} follows the SDN principles of:
 \begin{itemize}
 \item applications having an abstracted view of resources and states.
 \end{itemize}
-The data plane is the resource layer which includes mobile edge, mobile transport, and core. The infrastructure is composed of links, forwarding nodes (e.g., switches and routers), cloud nodes (e.g., data centers), and so on, comprising a set of network, computing, and storage resources.\\
+The data plane is in practice the resource layer which includes mobile edge, mobile transport, and core. The infrastructure is composed of links, forwarding nodes as switches and routers, cloud nodes  and comprising a set of network, computing, and storage resources.\\
 The control plane is divided into two layers: an application layer at the top and the 5G \gls{MANO} platform below. \\
 The design of the MANO is based on the ETSI management and network orchestration framework with integrated SDN-based control. The MANO
-provides an abstracted view of available resources and states and control, and
-management functions to an ecosystem of applications, via a \gls{NBI}. On the other hand, the MANO is connected to the data plane
+provides a view of available resources  via a \gls{NBI}, instead it is connected to the data plane
 elements via a \gls{SBI} to execute control and management
-functions (e.g., OpenFlow, SNMP, OVSDB) on the actual hardware components.
+functions (possible application to do the job are OpenFlow, SNMP, OVSDB) on the actual hardware components.
 With respect to the \gls{MTA}, it implements the
 multi-tenancy support by coordinating and managing tenants access to a shared
 infrastructure, performing resource isolation between instances assigned to
 different tenants, and delivering multi-tenancy-related services, such as the
-allocation and operation of VIs, by means of dedicated \gls{API}s\footnote{An application program interface is code that allows two software programs to communicate with each other.} in cooperation
-with the data plane, enforcing this logical separation. \\
+allocation and operation of VIs, by means of dedicated \gls{API}\footnote{An application program interface is code that allows two software programs to communicate with each other.} in cooperation
+with the data plane, remarking this logical separation. \\
 As shown in Fig. \ref{Arch}
 such APIs depend on the actual service: for the control of a VI or NS lifetime,
 instantiation, modification, and deletion.
 
 \subsection{Enablers and Design Principles}
-Future 5G networks will be built on novel concepts that were not envisioned by the previous generation
+Future 5G networks will be built on novel concepts that were not concerned by the previous generation
 network architectures. The revolution provided by the introduction of SDN
 and \gls{NFV}\footnote{Although NFV and VNF are often used interchangeably, for the sake of clarity NFV is an overarching concept, while a VNF is building block of a NFV framework.} opens the door to a
 large list of possible applications recalling that the latter focuses primarily on optimization of the network services, instead the former to separate the control and forwarding plane for a centralized view of the network. The fundamental parts involved in the network slicing realization for the future 5G networks are now discussed.
 
-\subsubsection{Modularization}
-The evolution of mobile communication systems towards 5G was intentionally aiming at achieving
-architecture flexibility, heterogeneous accesses and vertical business integration, leveraging on NFV and SDN. To enable the design of logical architectures tailored to
-performance and functional requirements of different use cases, the principle of architecture
+\subsubsection{Modularization and Function Decomposition}
+The evolution of mobile communication systems towards 5G aims at achieving
+architecture flexibility, heterogeneous accesses and vertical business integration, exploiting NFV and SDN. The principle of architecture
 modularization and network function decomposition was proposed at the earliest 5G research
-stages.\\ 
-\gls{NF}s are functional blocks
-that provide specific network capabilities to support and realize the particular service(s). Generally implemented
+stages in order to fulfill the above requirements.\\ 
+\gls{NF}s are the functional blocks
+that provide specific network capabilities to support and realize particular services. Generally implemented
 as software instances running on infrastructure
-resources, NFs can be physical (a combination
-of specific hardware and software, defining a specific purpose-built physical appliance)
-and/or virtualized (network function software is
-decoupled from the hardware it runs on). \\
-In particular, conventionally "monolithic" network functions are proposed to be split into basic modules, both for the \gls{CP} and \gls{UP}, thus allowing the definition of different logical architectures via the interconnection of
+resources, NFs can be physical, that is a combination
+of specific hardware and software, or virtualized, that is function service is
+decoupled from the hardware it runs on. In particular, conventionally "monolithic" network functions are proposed to be split into basic modules, both for the \gls{CP} and \gls{UP}, allowing the definition of different logical architectures by means of the interconnection of
 different subsets of CP and UP NFs.\\
 In the process of decomposing the NFs into basic modules, the distinction between NFs relating to
-the \gls{AN} and core network emerged. To minimize the dependency of the 5G
-core on the access (and vice versa), and achieve the definition of a convergent network\footnote{Network convergence is the efficient coexistence of telephone, video and data communication within a single network.} providing
+the \gls{AN} and CN emerged. To minimize the dependency of the 5G
+core on the access and viceversa and achieve the definition of a convergent network\footnote{Network convergence is the efficient coexistence of telephone, video and data communication within a single network.}, providing
 connectivity via a multitude of accesses not only including cellular radio, a different AN/CN functional split and an interface model are necessary.\\
 Besides flexibility, the architecture modularization provides the essentials to support network
 ­slicing, as a network slice can be defined as an independent logical network shaped by the interconnection of a subset of NFs, composing both CP and UP, and which can be independently instantiated
@@ -290,24 +260,22 @@ and operated over physical or virtual infrastructure.
 
 \subsubsection{Virtualization}
 Virtualization is a key process for network slicing
-as it enables effective resource sharing among
-slices. Virtualization is the abstraction of resources
-using appropriate techniques. The resource abstraction is the representation of a resource in terms of
-attributes that match predefined selection criteria
-while hiding or ignoring some of those irrelevant to such criteria, in order to simplify the
-use and management of that resource in some
-useful way. \\
+as it permits effective resource sharing among
+slices and it actually is the abstraction of resources
+using appropriate techniques. Abstraction means the representation of a resource in terms of
+attributes that match predefined selection criteria in order to simplify the its
+use and management. \\
 The resources to be virtualized can
-be physical or already virtualized, supporting a
-recursive pattern with different abstraction layers.
-Just as server virtualization makes \gls{VM}s independent of the underlying
+be physical or already virtualized as well, supporting a
+recursive system with different abstraction layers.
+Just like server virtualization makes \gls{VM}s independent of the underlying
 physical hardware, network virtualization enables
 the creation of multiple isolated virtual networks that
 are completely decoupled from the underlying physical network and can safely run on top of it.
-The framework consists of\ three kinds of actors:
+The framework consists of three kinds of actors:
 \begin{itemize}
-\item \gls{InP}: owns and manages a given physical network and its constituent resources. Such resources, in the form of
-WANs and/or data centers, are virtualized and then offered through programming
+\item \gls{InP}: owns and manages a given physical network. It offers resources in the form of
+WANs or data centers that are virtualized and handed in through programming 
 interfaces to a single or multiple tenants.
 \end{itemize}
 \begin{itemize}
@@ -319,144 +287,118 @@ is defined in terms of the individual NFs and
 the mechanism used to connect them.
 \end{itemize}
 \begin{itemize}
-\item End user: consumes (part of) the services
-supplied by the tenant, without providing
-them to other business actors
+\item End user: consumes the services
+supplied by the tenant.
 \end{itemize}
 
 \subsubsection{Orchestration}
 Orchestration is also a key process for network
-slicing. In its general sense, orchestration can be
+slicing and can be
 defined as the concept of bringing together and coordinating different things into a coherent whole.
 In a slicing environment, where the players involved
-are so diverse, an orchestrator is needed to coordinate disparate network processes for
+are so different, an orchestrator is needed to coordinate heterogeneous network processes for
 creating, managing, and delivering services.\\
 According to the \gls{ONF},
 orchestration is defined as "\textit{the continuing process of
 selecting resources to fulfill client service demands
-in an optimal manner}". The idea of optimal refers
-to the optimization policy that governs orchestrator behavior, which is expected to meet all the service level agreements \gls{SLA}s associated with clients (e.g., tenants or end users)
-that request services. The term continuing means
-that available resources, service demands, and optimization criteria may change in time. \\
-Interestingly, orchestration is also referred to as the defining
-characteristic of an SDN controller. Note that client
-is a term used in the SDN context.
-The ONF states that the orchestrator functions
-include client-specific service demand validation,
-resource configuration, and event notification.
+in an optimal manner}". This means to use a policy that governs the orchestrator behavior, which is expected to fulfill all the service level agreements \gls{SLA}s associated with clients
+who request services remembering
+that the available resources, the service demands, and optimization criteria may change in time. \\
+Noteworthy is that orchestration is also referred to as the defining
+characteristic of an SDN controller.
 However, in network slicing, orchestration cannot be performed by a single centralized entity,
-not only because of the complexity and the
-scope of orchestration tasks, but also because it
+not only because of the complexity, but also because it
 is necessary to maintain management independence and support the possibility of recursion. \\
 A framework in which each virtualization
 actor has an entity performing orchestration functions seems more suitable to satisfy the
-above requirements. The entities should exchange
-information and delegate functionalities between
-them to ensure that the services delivered at a
-certain abstraction layer satisfy the required performance levels with optimal resource utilization.
+above requirements. 
 
 \paragraph{Isolation}\mbox{}\\
 Strong isolation is a major requirement that must
 be satisfied to operate parallel slices on a common shared underlying substrate. The isolation
 must be understood in terms of:
 \begin{itemize}
-\item Performance: Each slice is defined to meet particular service requirements, usually expressed in the
+\item Performance: each slice is defined to accomplish particular service requirements, usually expressed in the
 form of \gls{KPI}s. Performance isolation is an E2E issue and has to ensure
 that service-specific performance requirements are
 always met on each slice, regardless of the congestion and performance levels of other slices.
 \end{itemize}
 \begin{itemize}
-\item Security and privacy: Attacks or faults occurring in one slice must not have an impact on
+\item Security and privacy: attacks or issues occurring in one slice must not affect
 other slices. Moreover, each slice must have
 independent security functions that prevent unauthorized entities to have read or write access to
-slice-specific configuration/management/accounting information, and be able to record any of
-these attempts, whether authorized or not.
+slice-specific configuration, management, accounting information.
 \end{itemize}
 \begin{itemize}
-\item Management: Each slice must be independently managed as a separate network.
+\item Management: each slice must be independently managed as a standalone network.
 \end{itemize}
 To achieve isolation, a set of appropriate, consistent policies and mechanisms have to be defined
 at each virtualization level, following the recursion
-principle introduced earlier. The policies contain lists of rules that describe how different manageable entities must be properly isolated, without delving into how this can be achieved.
-To fully realize the
-required isolation level and so this shows that the interplay of both virtualization and orchestration is actually needed.
+principle discussed earlier. The policies contain lists of rules that describe how different entities must be isolated.
+To properly realize the required isolation level an team play of both virtualization and orchestration is actually needed.
 
 
 
 
 \subsubsection{SDN: Software-Defined Network}
-In a software-defined network, a network engineer or administrator can shape traffic from a centralized control console without having to touch individual switches in the network. The centralized SDN controller directs the switches to deliver network services wherever they are needed, regardless of the specific connections between a server and devices. This process is a move away from traditional network architecture, in which individual network devices make traffic decisions based on their configured routing tables.\\
-The SDN architecture comprises an intermediate control plane that dynamically configures and abstracts the underlying
-forwarding plane resources so as to deliver tailored services to clients located in the application plane. This is
-well aligned with the requirements of 5G network
-slicing, which needs to satisfy a wide range of service demands. Then, the SDN architecture is an appropriate
-tool for supporting the key principles of slicing.\\
-The major SDN components are resources and controllers. For
+In a SDN a network engineer can manage traffic from a centralized control console without handling individual switches in the network. The centralized SDN controller directs the switches to deliver network services wherever they are needed, this is actually a move away from traditional network architecture, in which devices make traffic decisions based on their configured routing tables.\\
+The SDN architecture comprises, as previously explained and shown in Fig. \ref{layers}, an intermediate control plane is present to dynamically configure and to abstract the underneath forwarding plane resources so as to deliver custom services to clients located in the application plane. This is indeed
+well aligned with 5G network
+slicing requirements since needs to satisfy a wide range of service demands. Then, the SDN is claimed to be an is an appropriate tool for supporting the key principles of slicing architecture.\\
+The main SDN components are resources and controllers. For
 SDN, a resource is anything that can be utilized to
-provide services in response to client requests. This
-includes infrastructure resources\footnote{Heterogeneous hardware and necessary software for hosting and connecting NFs. They include computing hardware,
-storage capacity, networking resources (e.g., links
-and switching/routing devices enabling network
-connectivity), and physical assets for radio access.
-} and NFs, but also
-network services, in application of the recursion
-principle described earlier. A controller is a logically centralized entity instantiated in the control
+provide services in response to client requests, that is infrastructure resources and NFs, but also
+network services in application of the recursion
+principle described before. A controller is a logically centralized entity instantiated in the control
 plane which operates SDN resources at runtime
 to deliver services in an optimal way. Therefore,
-it mediates between clients and resources, acting simultaneously as server and client via client
+it finds out tradeoffs among clients and resources, acting simultaneously as server and client via client
 and server contexts, respectively. Both contexts
 are conceptual components of an SDN controller
 enabling the server-client relationships:
 \begin{itemize}
-\item Client context: Represents all the information the
-controller needs to support and communicate with
+\item Client context: represents all the information the
+controller needs to handle and transmit to
 a given client. It comprises a Resource Group and
-a Client support function. The Resource Group contains an abstract, customized view of all the resources that the controller, through one of its northbound
-interfaces, offers to the client, in order to deliver
-on its service demands and facilitate its interaction
-with the controller. Client support contains all that
-is necessary to support client operations, including
-policies on what the client is allowed to see and do and service-related information to map actions
-between the client and the controller.
+a Client support function: the former contains an abstract and customized view of all the resources that the controller offers to the client, through its NBIs, in order to deliver its service demands and ease its interaction
+with the controller; the latter instead contains all the
+necessary to support client operations, like
+policies on what the client is allowed to see and do.
 \end{itemize}
 \begin{itemize}
-\item Server context: Represents all the information the controller needs to interact with a set of
-underlying resources, assembled in a Resource
-Group, through one of its southbound interfaces.
+\item Server context: represents all the information the controller needs to interact with a set of
+underlying resources grouped in a Resource
+Group through one of its SBIs.
 \end{itemize}
-The process of transforming the set of
-Resource Groups accessed through server contexts to those defined in separate client contexts
-is not straightforward, and it requires the SDN
+The process of transformation of the Resource Groups set accessed by server contexts to those defined in separate client contexts
+is not easy and requires the SDN
 controller to perform virtualization and orchestration functions.\\
 When performing the virtualization function, the
 SDN controller carries out the abstraction and the
 aggregation/partitioning of the underlying resources. Thanks to virtualization, each client context provides a specific Resource Group that can be used by the client associated with that context to realize
-its service(s). Through orchestration, the SDN controller optimally dispatches the selected resources
-to such separate Resource Groups. \\
-The interplay of both controller functions enables the fulfillment
-of the diverging service demands from all clients
-while preserving the isolation among them.\\
-The SDN architecture also includes an administrator. Its tasks consist of instantiating and configuring the entire controller, including the creation
-of both server and client contexts and the installation of their associated policies.\\
-The SDN architecture naturally supports slicing, as the client context provides the complete abstract set of resources
-(as a Resource Group) and the supporting control
+its services. Through orchestration, the SDN controller distributes in an optimal way the selected resources
+to such separate Resource Groups. Thanks to these two functions the fulfillment of the service demands from all clients is guaranteed
+while preserving the isolation among them. \\
+The SDN architecture also includes an admin whose tasks consist of initializing and configuring the entire controller, including the creation
+of both server/client contexts and the selection of their policies.\\
+The SDN architecture also supports slicing because the client context provides the complete abstract set of resources as a Resource Group and the supporting control
 logic that constitute a slice, including the complete
 collection of related client service attributes.\\
-Another key functional aspect that makes SDN
-architecture ideal to embrace 5G slicing is recursion. Because of the different abstraction layers
+Another key aspect that makes SDN
+architecture an ideal solution for 5G slicing is recursion. Because of the different abstraction layers
 that the recursion principle enables, the SDN
 control plane can involve multiple hierarchically
 arranged controllers that extend the client-server
 relationships at several levels. According to
-these premises, it is evident that SDN can support a
-recursive composition of slices. This implies that
-the resources (i.e., Resource Group) a given controller delivers to one of its clients in the form of a
-dedicated slice (i.e., client context) can, in turn, be
+that, it is clear that SDN can support a
+recursive composition of slices. This implies as consequence that
+the resources a given controller delivers to one of its clients in the form of a
+dedicated slice, i.e. client context, can in turn be
 virtualized and orchestrated by such a client in the
 case of being an SDN controller. In this way, the new
-controller can utilize the resource(s) it accesses via
-its server context(s) to define, scale, and deliver
-new resources (and hence new slices) to its own
+controller can utilize the resources it accesses via
+its server contexts to define, scale, and deliver
+new resources and hence new slices to its own
 clients, which might also be SDN controllers.
 
 
@@ -466,11 +408,11 @@ gives a comprehensive view of the control plane
 functionalities enabling slicing, it lacks capabilities
 to efficiently manage the life cycle of
 network slices and its resources. \\
-VNFs, generally speaking, are virtualized tasks formerly carried out by proprietary, dedicated hardware. VNFs move individual network functions out of dedicated hardware devices into software that runs on commodity hardware. These tasks, used by both network service providers and businesses, include firewalls, domain name system, caching or network address translation and can run as virtual machines. In this respect, the NFV architecture is ideal to play
+VNFs move individual network functions out of dedicated hardware devices into software that runs on commodity hardware. These tasks, used by both network service providers and businesses, include firewalls, domain name system, caching or network address translation and can run as virtual machines. Then, the NFV architecture is ideal to play
 this role, as it manages the infrastructure resources
 and orchestrates the allocation of such resources
 needed to realize VNFs and network services.\\
-To benefit from the management and orchestration functionalities of NFV, appropriate cooperation between SDN and NFV is required.
+To benefit from the management and orchestration functionalities of NFV, the right cooperation between SDN and NFV is required.
 However, embracing SDN and NFV architectures
 into a common reference framework is not an
 easy task. ETSI presents a framework
@@ -479,12 +421,12 @@ controllers, one logically placed at the tenant and
 another at the InP level. The NFV architecture comprises the following
 entities:\\
 \begin{itemize}
-\item \gls{NFVI}: A collection of resources used to
-host and connect the VNFs. While the broad scope of SDN makes resource a generic concept,
+\item \gls{NFVI}: a collection of resources used to
+host and connect the VNFs. While SDN makes resource a generic concept,
 the current resource definition in the NFV framework comprises only the infrastructure resources.
 \end{itemize}
 \begin{itemize}
-\item VNFs: Software-based implementations of NFs that run over the NFVI.
+\item VNFs: software-based implementations of NFs that run over the NFVI.
 \end{itemize}
 \begin{itemize}
 \item \gls{MANO}: Performs all the virtualization-specific management, coordination, and automation tasks in the NFV architecture. The MANO framework comprises three functional blocks:
@@ -495,20 +437,19 @@ the current resource definition in the NFV framework comprises only the infrastr
 \item \gls{VNFM}: performs configuration and life cycle management of the VNF(s) on its domain.
 \end{itemize}
 \begin{itemize}
-\item Orchestrator: According to ETSI, it has two set of functions performed by the Resource \gls{RO} and \gls{NSO}, respectively. The RO orchestrates the NFVI resources across (potentially different) VIMs. The NSO performs the life cycle management of network
+\item Orchestrator: according to ETSI, it has two set of functions performed by the Resource \gls{RO} and \gls{NSO}, respectively. The RO orchestrates the NFVI resources across (potentially different) VIMs. The NSO performs the life cycle management of network
 services using the capabilities provided by the
 RO and the (potentially different) VNFMs.
 \end{itemize}
 \end{itemize}
 \begin{itemize}
-\item \gls{NMS}: Framework performing the general network management tasks. Although its functions are orthogonal to those defined in MANO, NMS is expected to interact with MANO entities by means of a clear separation of roles. NMS comprises:
+\item \gls{NMS}: framework performing the general network management tasks. Although its functions are orthogonal to those defined in MANO, NMS is expected to interact with MANO entities by means of a clear separation of roles. NMS comprises:
 \begin{itemize}
-\item \gls{EM}: responsible for the fault, configuration,
+\item \gls{EM}: responsible for the configuration,
 accounting, performance, and security of a VNF.
 \end{itemize}
 \begin{itemize}
-\item \gls{OSS/BSS}: a collection of systems and manage-
-ment applications that network service providers use to provision and operate their network
+\item \gls{OSS/BSS}: a collection of systems and management applications that network service providers use to provision and operate their network
 services. In terms of the roles we considered
 earlier, tenants would run these applications.
 \end{itemize}
@@ -516,9 +457,9 @@ earlier, tenants would run these applications.
 The ETSI proposal includes two SDN controllers
 in the architecture. Each controller centralizes
 the control plane functionalities and provides an
-abstract view of all the connectivity-related components it manages. These controllers are:
+abstract view of all the components connectivity related it manages. These controllers are:
 \begin{itemize}
-\item \gls{IC}: Sets up
+\item \gls{IC}: sets up
 and manages the underlying networking resources to provide the required connectivity for communicating the VNFs.
 Managed by the VIM, this controller may change
 infrastructure behavior on demand according to
@@ -528,25 +469,23 @@ VIM specifications adapted from tenant requests.
 \item \gls{TC}: instantiated in
 the tenant domain as one of the VNFs or as
 part of the NMS, this second controller dynamically manages the pertinent VNFs used to realize
-the tenant’s network service(s). These VNFs are
-the underlying forwarding plane resources of the
-TC. The operation and management tasks that the
+the tenant’s network service(s). The operation and management tasks that the
 TC carries out are triggered by the applications
 running on top of it (e.g. the OSS).
 \end{itemize}
 Both controllers manage and control their
-underlying resources via programmable southbound interfaces, implementing protocols like
+underlying resources via programmable SBI, implementing protocols like
 OpenFlow, NETCONF, and I2RS. However, each
 controller provides a different level of abstraction. While the IC provides an underlay to support
 the deployment and connectivity of VNFs, the
 TC provides an overlay comprising tenant VNFs
-that, properly composed, define the network service(s) such a tenant independently manages on
-its slice(s). These different resource views each
-controller offers through its interfaces have consequences on the way they operate. On one side,
-the IC is not aware of the number of slices that utilize the VNFs it connects, nor the tenant(s) which
-operate(s) such slices. On the other side, for the
+that define the network service a tenant independently manages on
+its slices. Therefore,
+the IC is not aware of the number of slices that utilize the VNFs 
+or about the tenants which
+operate in the slices. On the other side, for the
 TC the network is abstracted in terms of VNFs,
-without notions of how those VNFs are physically
+without a knowledge of how those VNFs are physically
 deployed. \\
 Despite their different abstraction levels,
 both controllers have to coordinate and synchronize their actions. Note that the service and
@@ -565,35 +504,34 @@ Finally an overall description of the system is given by Fig. \ref{integral}.
 
 \newpage
 \section{Network Slicing} 
-Now we have all the players to look inside what NGMN has proposed as the concept of network slicing with the target to create tenant or service‐specific networks. While legacy systems host multiple telecommunication
-services, such as mobile broadband, voice, SMS, on the same mobile network architecture, for
+Now we have all the players to look inside what NGMN has proposed as the concept of network slicing: while legacy systems host multiple telecommunication
+services as mobile broadband, voice, SMS on the same mobile network architecture, for
 instance composed of Long Term Evolution radio access and the \gls{EPC},
 future 5G networks should also support shared or dedicated logical architectures customized to the
-respective telco or vertical services, such as \gls{eMBB}, vehicular communications, \gls{URLLC}, and \gls{mMTC}. These services need very different KPIs that are
-hard to be fulfilled by legacy systems, as they are characterized by monolithic network elements that
+respective telco or vertical services as \gls{eMBB}, vehicular communications, \gls{URLLC}, and \gls{mMTC}. These services need different KPIs that are
+hard to be fulfilled by legacy systems which are characterized by monolithic network elements that
 have tightly coupled hardware, software, and functionality. \\
-Future architectures, as already explained, leverages the decoupling of software‐based network functions from the underlying infrastructure resources by
+Future architectures must leverage on the decoupling of software‐based network functions from the underlying infrastructure resources by
 means of utilizing different resource abstraction technologies.
-Furthermore, exploiting modularization, well‐known resource sharing technologies such as multiplexing and multitasking ( e.g.
-wavelength division multiplexing or radio scheduling), can be advantageously complemented
+Furthermore exploiting modularization, resource sharing technologies such as multiplexing and multitasking (for instance
+wavelength division multiplexing or radio scheduling), can be complemented
 by softwarization techniques. Multitasking and multiplexing allow sharing
 physical infrastructure that is not virtualized. NFV and SDN allow different tenants to share the
-same general‐purpose hardware. 
+same general purpose hardwares. 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.55]{pics/slice.png}
 \caption{An example of a network‐sliced architecture. \cite{al20185g}} 
 \label{slice}
 \end{figure}
-In combination, these technologies allow building fully decoupled E2E networks on top of a common, shared infrastructure. Consequently, multiplexing will not happen on the network level anymore, but on the
-infrastructure level, as depicted in Fig. \ref{slice}, yielding better \gls{QoS} or \gls{QoE} for the subscriber (as different slices will have tailored orchestration for a given
-service) as well as improved levels of network operability for the mobile service provider or mobile
-network operator.\\
+In combination, these technologies allow building fully decoupled E2E networks on top of a common, shared infrastructure and consequently, multiplexing will not be done on the network level anymore, but on the
+infrastructure level, as depicted in Fig. \ref{slice}, yielding better \gls{QoS} or \gls{QoE} for the subscriber since different slices will have tailored orchestration for a given
+servic.\\
 In principle, a network slice is a logical network that provides specific network capabilities and
 network characteristics and comprises NFs, computing and networking resources to meet the
-­performance requirements of the tenants, for instance verticals. This comprises both \gls{RAN} and CN NFs and, depending on the degree of freedom that a tenant may have, also
+­performance requirements of the tenants. This comprises both \gls{RAN} and CN NFs that depending on the degree of freedom a tenant may have, also
 the MANO components. A network slice may be dedicated to a
-specific tenant or partially shared by several tenants that have the same performance requirements
+specific tenant or partially shared by several tenants in order to have the same performance requirements
 but different security or policy settings. \\
 The decoupling between the virtualized and the physical
 infrastructure allows for the efficient scaling of the slices, hence suggesting the
@@ -613,21 +551,21 @@ to softwarization and virtualization techniques.
 \subsection{Main Services Types}
 The main 5G service types typically considered are:
 \begin{itemize}
-\item Enhanced mobile broadband (eMBB): related to human‐centric and enhanced access to multimedia content, services and data with improved performance and increasingly seamless user experience. This service type, which can be seen as an evolution of the services nowadays provided by
-4G networks, covers UCs with very different requirements, e.g. ranging from hotspot UCs characterized by a high user density, very high traffic capacity and low user mobility, to wide area coverage cases with medium to high user mobility, but the need for seamless radio coverage practically
-anywhere and anytime with visibly improved user data rates compared to today;
+\item Enhanced mobile broadband (eMBB): related to human operations and to an enhanced access to multimedia content, services and data with improved performance with an increasing user experience. This service type, which can be seen as an evolution of the services today provided by
+4G networks, covers use cases with very different requirements, ranging from hotspot characterized by a high user density and very high traffic capacity and low user mobility, to wide area coverage cases with medium to high user mobility; besides the need for seamless radio coverage practically
+anywhere and anytime with visibly is requested to improve user data rates;
 \end{itemize}
 \begin{itemize}
-\item Ultra‐reliable and low-latency communications (URLLC): related to UCs with stringent requirements for capabilities such as latency, reliability and availability. Examples include the wireless
-control of industrial manufacturing or production processes, remote medical surgery, distribution automation in a smart grid, transportation safety, etc. It is expected that URLLC services will provide a main part of the fundament for the 4th industrial revolution (often referred to as
+\item Ultra‐reliable and low-latency communications (URLLC): related to use cases with tight requirements for capabilities such as latency, reliability and availability. Examples include the wireless
+control of industrial manufacturing or production processes, remote medical surgery, distribution automation in a smart grid, transportation safety, etc. It is expected that URLLC services will provide a main part of the foundations for the 4th industrial revolution (often referred to as
 Industry 4.0) and have a substantial impact on industries far beyond the information and communication technology industry;
 \end{itemize}
 \begin{itemize}
 \item Massive machine‐type communications (mMTC): capturing services that are characterized by
-a very large number of connected devices typically transmitting a relatively low volume of non delay‐sensitive data. However, the key challenge is here that devices are usually required to be
-low-cost, and have a very long battery lifetime. Key examples for this service type would be logistics applications (e.g., involving the tracking of tagged objects), smart metering, or for instance
+a very large number of connected devices typically transmitting a relatively low volume of non delay sensitive data. However, the key challenge is here that devices are usually required to be
+low-cost, and have a very long battery lifetime. Key examples for this service type would be logistics applications, smart metering, or for instance
 agricultural applications where small, low‐cost and low‐power sensors are sprinkled over large
-areas to measure ground humidity, fertility, etc.
+areas to measure ground humidity, fertility and what concerns Intern of Things in general.
 \end{itemize}
 The concept of network slicing will be implemented at the beginning of the 5G era in order to realize these main services as slices and their 8 most important KPI are the following:
 \begin{itemize}

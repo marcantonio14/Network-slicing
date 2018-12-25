@@ -19,10 +19,11 @@ Jim Doherty.
   defined networks and network function virtualization}.
 \newblock Addison-Wesley Professional, 2016.
 
-\bibitem{etsi2015gs}
+\bibitem{etsi2017gs}
 NFVISG ETSI.
-\newblock Gs nfv-eve 005 v1. 1.1 network function virtualisation (nfv);
-  ecosystem; report on sdn usage in nfv architectural framework, 2015.
+\newblock Network functions virtualisation (nfv) release 3; evolution and
+  ecosystem; report on network slicing support with etsi nfv architecture
+  framework, 2017.
 
 \bibitem{marsch20185g}
 Patrick Marsch, {\"O}mer Bulakci, Olav Queseth, and Mauro Boldi.
