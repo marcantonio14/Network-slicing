@@ -1,4 +1,0 @@
-1 add acronym
-2 for first time use \gls{*}
-3 terminal in the right folder \makeglossaries namefile (no extension)
-4 compile
