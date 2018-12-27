@@ -6,24 +6,20 @@ Anwer Al-Dulaimi, Xianbin Wang, and I~Chih-Lin.
   and Operations Management}.
 \newblock John Wiley \& Sons, 2018.
 
-\bibitem{bockelmann2016massive}
-Carsten Bockelmann, Nuno Pratas, Hosein Nikopour, Kelvin Au, Tommy Svensson,
-  Cedomir Stefanovic, Petar Popovski, and Armin Dekorsy.
-\newblock Massive machine-type communications in 5g: Physical and mac-layer
-  solutions.
-\newblock {\em IEEE Communications Magazine}, 54(9):59--65, 2016.
-
-\bibitem{doherty2016sdn}
-Jim Doherty.
-\newblock {\em SDN and NFV simplified: a visual guide to understanding software
-  defined networks and network function virtualization}.
-\newblock Addison-Wesley Professional, 2016.
+\bibitem{etsi2018gs}
+ETSI.
+\newblock 3gpp ts 23.501 v15.2.0, 2018.
 
 \bibitem{etsi2017gs}
 NFVISG ETSI.
 \newblock Network functions virtualisation (nfv) release 3; evolution and
   ecosystem; report on network slicing support with etsi nfv architecture
   framework, 2017.
+
+\bibitem{kaloxylos2018survey}
+Alexandros Kaloxylos.
+\newblock A survey and an analysis of network slicing in 5g networks.
+\newblock {\em IEEE Communications Standards Magazine}, 2(1):60--65, 2018.
 
 \bibitem{marsch20185g}
 Patrick Marsch, {\"O}mer Bulakci, Olav Queseth, and Mauro Boldi.

@@ -1828,3 +1828,273 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{PCF}{}%
+{%
+\gls@defglossaryentry{PCF}%
+{%
+name={PCF},%
+sort={PCF},%
+type={acronym},%
+first={Policy Control Function\glsspace (PCF)},%
+firstplural={Policy Control Functions\glsspace (PCFs)},%
+text={PCF},%
+plural={PCFs},%
+description={Policy Control Function},%
+descriptionplural={Policy Control Function\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Policy Control Function},%
+longplural={Policy Control Functions},%
+short={PCF},%
+shortplural={PCFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{NEF}{}%
+{%
+\gls@defglossaryentry{NEF}%
+{%
+name={NEF},%
+sort={NEF},%
+type={acronym},%
+first={Network Exposure Function\glsspace (NEF)},%
+firstplural={Network Exposure Functions\glsspace (NEFs)},%
+text={NEF},%
+plural={NEFs},%
+description={Network Exposure Function},%
+descriptionplural={Network Exposure Function\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Network Exposure Function},%
+longplural={Network Exposure Functions},%
+short={NEF},%
+shortplural={NEFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{NRF}{}%
+{%
+\gls@defglossaryentry{NRF}%
+{%
+name={NRF},%
+sort={NRF},%
+type={acronym},%
+first={NF Repository Function\glsspace (NRF)},%
+firstplural={NF Repository Functions\glsspace (NRFs)},%
+text={NRF},%
+plural={NRFs},%
+description={NF Repository Function},%
+descriptionplural={NF Repository Function\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={NF Repository Function},%
+longplural={NF Repository Functions},%
+short={NRF},%
+shortplural={NRFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{N3IWF}{}%
+{%
+\gls@defglossaryentry{N3IWF}%
+{%
+name={N3IWF},%
+sort={N3IWF},%
+type={acronym},%
+first={Non-3GPP InterWorking Function\glsspace (N3IWF)},%
+firstplural={Non-3GPP InterWorking Functions\glsspace (N3IWFs)},%
+text={N3IWF},%
+plural={N3IWFs},%
+description={Non-3GPP InterWorking Function},%
+descriptionplural={Non-3GPP InterWorking Function\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Non-3GPP InterWorking Function},%
+longplural={Non-3GPP InterWorking Functions},%
+short={N3IWF},%
+shortplural={N3IWFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{UDR}{}%
+{%
+\gls@defglossaryentry{UDR}%
+{%
+name={UDR},%
+sort={UDR},%
+type={acronym},%
+first={Unified Data Repository\glsspace (UDR)},%
+firstplural={Unified Data Repositorys\glsspace (UDRs)},%
+text={UDR},%
+plural={UDRs},%
+description={Unified Data Repository},%
+descriptionplural={Unified Data Repository\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Unified Data Repository},%
+longplural={Unified Data Repositorys},%
+short={UDR},%
+shortplural={UDRs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{NSSF}{}%
+{%
+\gls@defglossaryentry{NSSF}%
+{%
+name={NSSF},%
+sort={NSSF},%
+type={acronym},%
+first={Network slice selection Function\glsspace (NSSF)},%
+firstplural={Network slice selection Functions\glsspace (NSSFs)},%
+text={NSSF},%
+plural={NSSFs},%
+description={Network slice selection Function},%
+descriptionplural={Network slice selection Function\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Network slice selection Function},%
+longplural={Network slice selection Functions},%
+short={NSSF},%
+shortplural={NSSFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{AF}{}%
+{%
+\gls@defglossaryentry{AF}%
+{%
+name={AF},%
+sort={AF},%
+type={acronym},%
+first={Application Function\glsspace (AF)},%
+firstplural={Application Functions\glsspace (AFs)},%
+text={AF},%
+plural={AFs},%
+description={Application Function},%
+descriptionplural={Application Function\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Application Function},%
+longplural={Application Functions},%
+short={AF},%
+shortplural={AFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{CSMF}{}%
+{%
+\gls@defglossaryentry{CSMF}%
+{%
+name={CSMF},%
+sort={CSMF},%
+type={acronym},%
+first={Communication Service Management Function\glsspace (CSMF)},%
+firstplural={Communication Service Management Functions\glsspace (CSMFs)},%
+text={CSMF},%
+plural={CSMFs},%
+description={Communication Service Management Function},%
+descriptionplural={Communication Service Management Function\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Communication Service Management Function},%
+longplural={Communication Service Management Functions},%
+short={CSMF},%
+shortplural={CSMFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{NSMF}{}%
+{%
+\gls@defglossaryentry{NSMF}%
+{%
+name={NSMF},%
+sort={NSMF},%
+type={acronym},%
+first={Network Slice Management Function\glsspace (NSMF)},%
+firstplural={Network Slice Management Functions\glsspace (NSMFs)},%
+text={NSMF},%
+plural={NSMFs},%
+description={Network Slice Management Function},%
+descriptionplural={Network Slice Management Function\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Network Slice Management Function},%
+longplural={Network Slice Management Functions},%
+short={NSMF},%
+shortplural={NSMFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

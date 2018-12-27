@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.15)  25 DEC 2018 13:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.15)  27 DEC 2018 12:52
 entering extended mode
 **./network_slicing.tex
 (network_slicing.tex
@@ -537,12 +537,12 @@ LaTeX Info: Redefining \nameref on input line 37.
 
 
 (network_slicing.glsdefs)
-<pics/unipd.jpg, id=71, 502.12593pt x 258.9675pt>
+<pics/unipd.jpg, id=59, 502.12593pt x 258.9675pt>
 File: pics/unipd.jpg Graphic file (type jpg)
 <use pics/unipd.jpg>
 Package pdftex.def Info: pics/unipd.jpg  used on input line 53.
 (pdftex.def)             Requested size: 155.99762pt x 80.4569pt.
-<pics/dei.jpg, id=72, 497.86pt x 324.21124pt>
+<pics/dei.jpg, id=60, 497.86pt x 324.21124pt>
 File: pics/dei.jpg Graphic file (type jpg)
 <use pics/dei.jpg>
 Package pdftex.def Info: pics/dei.jpg  used on input line 53.
@@ -553,12 +553,7 @@ Package pdftex.def Info: pics/dei.jpg  used on input line 53.
 
 
 {C:/Users/marco/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./pics/unip
-d.jpg> <./pics/dei.jpg>]pdfTeX warning (ext4): destination with the same identi
-fier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.53 \newpage
-              [2] (network_slicing.toc)
+d.jpg> <./pics/dei.jpg>] (network_slicing.toc)
 \tf@toc=\write6
 \openout6 = `network_slicing.toc'.
 
@@ -602,19 +597,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1]
 
 LaTeX Warning: The counter will not be printed.
-             The label is: 2 on input line 169.
+             The label is: 2 on input line 179.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is: 3 on input line 172.
+             The label is: 3 on input line 182.
 
-<pics/1.JPG, id=200, 567.62062pt x 439.6425pt>
+<pics/1.JPG, id=180, 567.62062pt x 439.6425pt>
 File: pics/1.JPG Graphic file (type jpg)
 <use pics/1.JPG>
-Package pdftex.def Info: pics/1.JPG  used on input line 193.
+Package pdftex.def Info: pics/1.JPG  used on input line 203.
 (pdftex.def)             Requested size: 368.94902pt x 285.76424pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--196
+Underfull \hbox (badness 10000) in paragraph at lines 185--206
 
  []
 
@@ -623,108 +618,107 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--196
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.200 \newpage
+l.210 \newpage
                <./pics/1.JPG>]
-<pics/2.JPG, id=219, 515.67656pt x 450.9347pt>
+<pics/2.JPG, id=200, 515.67656pt x 450.9347pt>
 File: pics/2.JPG Graphic file (type jpg)
 <use pics/2.JPG>
-Package pdftex.def Info: pics/2.JPG  used on input line 205.
+Package pdftex.def Info: pics/2.JPG  used on input line 215.
 (pdftex.def)             Requested size: 345.5015pt x 302.12468pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 211.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 221.
 
 
 ("C:\Users\marco\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 211.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 221.
 
 [4pdfTeX warning (ext4): destination with the same identifier (name{figure.0.2}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.234 
+l.244 
        <./pics/2.JPG>] [5] [6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 406--423
+Underfull \hbox (badness 10000) in paragraph at lines 416--433
 
  []
 
 [9] [10]
-Overfull \hbox (12.23744pt too wide) in paragraph at lines 452--455
+Overfull \hbox (12.23744pt too wide) in paragraph at lines 462--465
 \OT1/cmr/m/n/12 sys-tems and man-age-ment ap-pli-ca-tions that net-work ser-vic
 e providers
  []
 
-<pics/integral.png, id=292, 624.08156pt x 359.09157pt>
+<pics/integral.png, id=273, 624.08156pt x 359.09157pt>
 File: pics/integral.png Graphic file (type png)
 <use pics/integral.png>
-Package pdftex.def Info: pics/integral.png  used on input line 498.
+Package pdftex.def Info: pics/integral.png  used on input line 508.
 (pdftex.def)             Requested size: 349.48329pt x 201.0899pt.
 [11] [12pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.0.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.505 \newpage
+l.515 \newpage
                <./pics/integral.png (PNG copy)>]
-<pics/slice.png, id=309, 636.12656pt x 346.29375pt>
+<pics/slice.png, id=290, 636.12656pt x 346.29375pt>
 File: pics/slice.png Graphic file (type png)
 <use pics/slice.png>
-Package pdftex.def Info: pics/slice.png  used on input line 523.
+Package pdftex.def Info: pics/slice.png  used on input line 533.
 (pdftex.def)             Requested size: 349.87068pt x 190.46214pt.
-<pics/5g_atom.png, id=316, 553.31718pt x 346.29375pt>
+<pics/5g_atom.png, id=297, 553.31718pt x 346.29375pt>
 File: pics/5g_atom.png Graphic file (type png)
 <use pics/5g_atom.png>
-Package pdftex.def Info: pics/5g_atom.png  used on input line 545.
+Package pdftex.def Info: pics/5g_atom.png  used on input line 555.
 (pdftex.def)             Requested size: 348.59166pt x 218.1662pt.
  [13pdfTeX warning (ext4): destination with the same identifier (name{figure.0.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.549 
+l.559 
        <./pics/slice.png (PNG copy)>] [14pdfTeX warning (ext4): destination wit
 h the same identifier (name{figure.0.5}) has been already used, duplicate ignor
 ed
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.554 \item E
+l.564 \item E
              nhanced mobile broadband (eMBB): related to human operations an...
- <./pics/5g_atom.png (PNG copy)>] [15] [16]
-<pics/capabilities1.png, id=340, 820.06375pt x 591.20876pt>
+ <./pics/5g_atom.png (PNG copy)>] [15]
+<pics/capabilities1.png, id=317, 820.06375pt x 591.20876pt>
 File: pics/capabilities1.png Graphic file (type png)
 <use pics/capabilities1.png>
-Package pdftex.def Info: pics/capabilities1.png  used on input line 625.
+Package pdftex.def Info: pics/capabilities1.png  used on input line 633.
 (pdftex.def)             Requested size: 328.01968pt x 236.47931pt.
-<pics/capabilities2.png, id=343, 820.06375pt x 624.3325pt>
+<pics/capabilities2.png, id=320, 820.06375pt x 624.3325pt>
 File: pics/capabilities2.png Graphic file (type png)
 <use pics/capabilities2.png>
-Package pdftex.def Info: pics/capabilities2.png  used on input line 631.
+Package pdftex.def Info: pics/capabilities2.png  used on input line 639.
 (pdftex.def)             Requested size: 328.01968pt x 249.72858pt.
- [17pdfTeX warning (ext4): destination with the same identifier (name{figure.0.
-6}) has been already used, duplicate ignored
+ [16] [17pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.0.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.635 
-       <./pics/capabilities1.png>]
-<pics/example.png, id=353, 611.28375pt x 402.75468pt>
-File: pics/example.png Graphic file (type png)
-<use pics/example.png>
-Package pdftex.def Info: pics/example.png  used on input line 652.
-(pdftex.def)             Requested size: 342.31656pt x 225.54108pt.
- [18pdfTeX warning (ext4): destination with the same identifier (name{figure.0.
-7}) has been already used, duplicate ignored
+l.643 
+       <./pics/capabilities1.png>] [18pdfTeX warning (ext4): destination with t
+he same identifier (name{figure.0.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.658 
-       <./pics/capabilities2.png>]
-Overfull \hbox (4.07509pt too wide) in paragraph at lines 659--659
-|[]\OT1/cmr/bx/n/12 Ownership of In-fras-truc-ture, Spec-trum, and Sub-scriber 
-Data| 
+l.647 \newpage
+               <./pics/capabilities2.png>]
+<pics/5g_architecture.PNG, id=339, 686.565pt x 411.03563pt>
+File: pics/5g_architecture.PNG Graphic file (type png)
+<use pics/5g_architecture.PNG>
+Package pdftex.def Info: pics/5g_architecture.PNG  used on input line 658.
+(pdftex.def)             Requested size: 391.34612pt x 234.29274pt.
+
+Overfull \hbox (1.34612pt too wide) in paragraph at lines 658--659
+ [][] 
  []
 
 [19pdfTeX warning (ext4): destination with the same identifier (name{figure.0.8
@@ -732,42 +726,69 @@ Data|
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.669 
-       <./pics/example.png (PNG copy)>] [20] [21] (network_slicing.bbl [22
+l.685 
+       <./pics/5g_architecture.PNG>] [20] [21] [22] (network_slicing.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 796.
 
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 717.
+[23
 
-[23]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 717.
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 796.
  (network_slicing.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 717.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 717.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 796.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 796.
 Package rerunfilecheck Info: File `network_slicing.out' has not changed.
-(rerunfilecheck)             Checksum: CDD82D5B7327DD2DA851F8CA5841FA4A;1375.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 717.
+(rerunfilecheck)             Checksum: B2ADFA4DD2C4F2851B0228FA9F905CD1;1036.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 796.
  ) 
 Here is how much of TeX's memory you used:
- 11981 strings out of 492973
- 178602 string characters out of 3126692
- 323801 words of memory out of 3000000
- 15541 multiletter control sequences out of 15000+200000
+ 12255 strings out of 492973
+ 182454 string characters out of 3126692
+ 327328 words of memory out of 3000000
+ 15808 multiletter control sequences out of 15000+200000
  11113 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,11n,43p,1983b,656s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/marco/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/marco/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/marco/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/marco/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Us
-ers/marco/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmti12.pfb>
-Output written on network_slicing.pdf (29 pages, 1162776 bytes).
+pdfTeX warning (dest): name{glo:NSMF} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:CSMF} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:AF} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{glo:NSSF} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:UDR} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:N3IWF} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:NRF} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:NEF} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:PCF} has been referenced but does not exist, re
+placed by a fixed one
+
+<C:/Users/marco/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/marco/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/marco/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/marco/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/User
+s/marco/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Users/marco/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmti12.pfb>
+Output written on network_slicing.pdf (28 pages, 1125299 bytes).
 PDF statistics:
- 464 PDF objects out of 1000 (max. 8388607)
- 129 named destinations out of 1000 (max. 500000)
- 187 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 447 PDF objects out of 1000 (max. 8388607)
+ 135 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 
