@@ -1,5 +1,5 @@
 \contentsline {section}{\numberline {1\let \Hy@linktoc \Hy@linktoc@none }Introduction}{1}{section.0.1}
-\contentsline {section}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none }Structural components for Network Slicing}{4}{section.0.2}
+\contentsline {section}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none }Structural components}{4}{section.0.2}
 \contentsline {subsection}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none .1}Enablers and Design Principles}{5}{subsection.0.2.1}
 \contentsline {subsubsection}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none .1.1}Modularization and Function Decomposition}{5}{subsubsection.0.2.1.1}
 \contentsline {subsubsection}{\numberline {2\let \Hy@linktoc \Hy@linktoc@none .1.2}Virtualization}{6}{subsubsection.0.2.1.2}
