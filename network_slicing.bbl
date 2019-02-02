@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{al20185g}
 Anwer Al-Dulaimi, Xianbin Wang, and I~Chih-Lin.
@@ -15,6 +15,14 @@ NFVISG ETSI.
 \newblock Network functions virtualisation (nfv) release 3; evolution and
   ecosystem; report on network slicing support with etsi nfv architecture
   framework, 2017.
+
+\bibitem{idc}
+5G~PPP Architecture~Working Group.
+\newblock Idc directions 2017: Iot forecast, 5g \& related sessions, 2017.
+
+\bibitem{5GPPP}
+5G~PPP Architecture~Working Group.
+\newblock View on 5g architecture (version 2.0), 2017.
 
 \bibitem{kaloxylos2018survey}
 Alexandros Kaloxylos.
