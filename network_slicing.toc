@@ -10,4 +10,5 @@
 \contentsline {section}{\numberline {3\let \Hy@linktoc \Hy@linktoc@none }Network Slicing}{11}{section.0.3}
 \contentsline {subsection}{\numberline {3\let \Hy@linktoc \Hy@linktoc@none .1}Main Services Types}{12}{subsection.0.3.1}
 \contentsline {section}{\numberline {4\let \Hy@linktoc \Hy@linktoc@none }5G Architecture}{16}{section.0.4}
-\contentsline {chapter}{Bibliography}{19}{section*.4}
+\contentsline {section}{\numberline {5\let \Hy@linktoc \Hy@linktoc@none }Conclusion}{18}{section.0.5}
+\contentsline {chapter}{Bibliography}{18}{section*.4}

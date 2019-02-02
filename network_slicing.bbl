@@ -16,10 +16,6 @@ NFVISG ETSI.
   ecosystem; report on network slicing support with etsi nfv architecture
   framework, 2017.
 
-\bibitem{idc}
-5G~PPP Architecture~Working Group.
-\newblock Idc directions 2017: Iot forecast, 5g \& related sessions, 2017.
-
 \bibitem{5GPPP}
 5G~PPP Architecture~Working Group.
 \newblock View on 5g architecture (version 2.0), 2017.
@@ -60,5 +56,9 @@ Ahmad Rostami, Peter Ohlen, Kun Wang, Zere Ghebretensae, Bjorn Skubic, Mateus
   Santos, and Allan Vidal.
 \newblock Orchestration of ran and transport networks for 5g: an sdn approach.
 \newblock {\em IEEE Communications Magazine}, 55(4):64--70, 2017.
+
+\bibitem{idc}
+Alan Weissberger.
+\newblock Idc directions 2017: Iot forecast, 5g \& related sessions, 2017.
 
 \end{thebibliography}
